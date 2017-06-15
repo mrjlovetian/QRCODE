@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  KKQRCode
+//  YHJQRCode
 //
 //  Created by Mr on 2017/6/5.
 //  Copyright © 2017年 余洪江. All rights reserved.
@@ -8,8 +8,11 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import <WXApi.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <Weibo/WeiboSDK.h>
 
-@interface AppDelegate ()
+@interface AppDelegate ()<WeiboSDKDelegate>
 
 @end
 
@@ -24,6 +27,22 @@
     self.window.rootViewController = mainVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [WXApi registerApp:@"wx4ecdec0638783c97"];///微信注册
+    
+    TencentOAuth *tencentAuth = [[TencentOAuth alloc] initWithAppId:@"1104627616" andDelegate:nil];///腾旭注册
+    if (tencentAuth) {
+        NSLog(@"%@",tencentAuth);
+    }
+    
+    [WeiboSDK registerApp:@"3607531417"];
+//    [WXApi registerApp:@"wxd930ea5d5a258f4f" enableMTA:YES];
+    
+    //向微信注册支持的文件类型
+    UInt64 typeFlag = MMAPP_SUPPORT_TEXT | MMAPP_SUPPORT_PICTURE | MMAPP_SUPPORT_LOCATION | MMAPP_SUPPORT_VIDEO |MMAPP_SUPPORT_AUDIO | MMAPP_SUPPORT_WEBPAGE | MMAPP_SUPPORT_DOC | MMAPP_SUPPORT_DOCX | MMAPP_SUPPORT_PPT | MMAPP_SUPPORT_PPTX | MMAPP_SUPPORT_XLS | MMAPP_SUPPORT_XLSX | MMAPP_SUPPORT_PDF;
+    
+    [WXApi registerAppSupportContentFlag:typeFlag];
+    
     return YES;
 }
 
@@ -54,5 +73,30 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(nonnull NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(nonnull id)annotation
+{
+    return [WeiboSDK handleOpenURL:url delegate:self];
+}
 
+/**
+ 收到一个来自微博客户端程序的请求
+ 
+ 收到微博的请求后，第三方应用应该按照请求类型进行处理，处理完后必须通过 [WeiboSDK sendResponse:] 将结果回传给微博
+ @param request 具体的请求对象
+ */
+- (void)didReceiveWeiboRequest:(WBBaseRequest *)request
+{
+    
+}
+
+/**
+ 收到一个来自微博客户端程序的响应
+ 
+ 收到微博的响应后，第三方应用可以通过响应类型、响应的数据和 WBBaseResponse.userInfo 中的数据完成自己的功能
+ @param response 具体的响应对象
+ */
+- (void)didReceiveWeiboResponse:(WBBaseResponse *)response
+{
+    
+}
 @end

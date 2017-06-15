@@ -1,0 +1,21 @@
+PODS:
+  - Tencent_SDK (3.1.3)
+  - WechatOpenSDK (1.7.7)
+  - Weibo (2.4.2)
+  - YHJQRCode (0.1.1)
+
+DEPENDENCIES:
+  - Tencent_SDK (~> 3.1.3)
+  - WechatOpenSDK
+  - Weibo (~> 2.4.2)
+  - YHJQRCode (~> 0.1.1)
+
+SPEC CHECKSUMS:
+  Tencent_SDK: 5e7116d42deed9af7b710f3d7995cc81b01a36e9
+  WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
+  Weibo: ed569ffed6eb043a159ac3b01dc5122b4e1fd77a
+  YHJQRCode: 2e4b1e288c87f5265206c7c7166ad61bf77d546e
+
+PODFILE CHECKSUM: f06f292f7bc3f2e47f07cc37fa627bcb0b5435f9
+
+COCOAPODS: 1.2.1

@@ -9,61 +9,46 @@
 /* Begin PBXBuildFile section */
 		C21D29A71EEE79CE001A12BA /* share_kber@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C21D29A51EEE79CE001A12BA /* share_kber@2x.png */; };
 		C21D29A81EEE79CE001A12BA /* share_kber@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C21D29A61EEE79CE001A12BA /* share_kber@3x.png */; };
-		C28D22511EE67E56009E167F /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D22501EE67E56009E167F /* RSAUtil.m */; };
+		C2A0758C1EEEC4D30095B568 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A0758A1EEEC4D30095B568 /* ShareViewController.m */; };
+		C2A0758D1EEEC4D30095B568 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A0758B1EEEC4D30095B568 /* ShareViewController.xib */; };
 		C2AD43621EE53FBC00B231BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD43611EE53FBC00B231BE /* main.m */; };
 		C2AD43651EE53FBC00B231BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD43641EE53FBC00B231BE /* AppDelegate.m */; };
 		C2AD436D1EE53FBC00B231BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AD436C1EE53FBC00B231BE /* Assets.xcassets */; };
 		C2AD43701EE53FBC00B231BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AD436E1EE53FBC00B231BE /* LaunchScreen.storyboard */; };
-		C2AD437F1EE53FF600B231BE /* KKQRCodeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD437A1EE53FF600B231BE /* KKQRCodeConst.m */; };
-		C2AD43801EE53FF600B231BE /* KKQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD437C1EE53FF600B231BE /* KKQRCodeTool.m */; };
-		C2AD43811EE53FF600B231BE /* UIImage+SGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD437E1EE53FF600B231BE /* UIImage+SGHelper.m */; };
 		C2AD43851EE548EF00B231BE /* QRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD43831EE548EF00B231BE /* QRCViewController.m */; };
 		C2AD43861EE548EF00B231BE /* QRCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AD43841EE548EF00B231BE /* QRCViewController.xib */; };
 		C2AD438A1EE5499E00B231BE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD43881EE5499E00B231BE /* MainViewController.m */; };
 		C2AD438B1EE5499E00B231BE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AD43891EE5499E00B231BE /* MainViewController.xib */; };
 		C2AD438F1EE54A6500B231BE /* XIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD438D1EE54A6500B231BE /* XIBViewController.m */; };
 		C2AD43901EE54A6500B231BE /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AD438E1EE54A6500B231BE /* XIBViewController.xib */; };
-		C2AD43931EE5606000B231BE /* QRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD43921EE5606000B231BE /* QRCodeScanningVC.m */; };
-		C2AD43991EE5614900B231BE /* KKQRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD43981EE5614900B231BE /* KKQRCodeScanningVC.m */; };
-		C2AD439F1EE561D900B231BE /* KKQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD439E1EE561D900B231BE /* KKQRCodeScanningView.m */; };
-		C2AD43A11EE5705B00B231BE /* KKQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2AD43A01EE5705B00B231BE /* KKQRCode.bundle */; };
+		DF3FB05B526E746D548783A0 /* libPods-KKQRCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9519F0E1650E5CBE7225213 /* libPods-KKQRCode.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96B2E2C10A7D84E1DDC35DAC /* Pods-KKQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKQRCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode.release.xcconfig"; sourceTree = "<group>"; };
 		C21D29A51EEE79CE001A12BA /* share_kber@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@2x.png"; sourceTree = "<group>"; };
 		C21D29A61EEE79CE001A12BA /* share_kber@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@3x.png"; sourceTree = "<group>"; };
-		C28D224F1EE67E56009E167F /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
-		C28D22501EE67E56009E167F /* RSAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAUtil.m; sourceTree = "<group>"; };
+		C2A075891EEEC4D30095B568 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ShareViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C2A0758A1EEEC4D30095B568 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ShareViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C2A0758B1EEEC4D30095B568 /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
 		C2AD435D1EE53FBC00B231BE /* KKQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2AD43611EE53FBC00B231BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C2AD43631EE53FBC00B231BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C2AD43641EE53FBC00B231BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2AD43611EE53FBC00B231BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C2AD43631EE53FBC00B231BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C2AD43641EE53FBC00B231BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C2AD436C1EE53FBC00B231BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2AD436F1EE53FBC00B231BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2AD43711EE53FBC00B231BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2AD43781EE53FF600B231BE /* KKQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKQRCode.h; sourceTree = "<group>"; };
-		C2AD43791EE53FF600B231BE /* KKQRCodeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KKQRCodeConst.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		C2AD437A1EE53FF600B231BE /* KKQRCodeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KKQRCodeConst.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		C2AD437B1EE53FF600B231BE /* KKQRCodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKQRCodeTool.h; sourceTree = "<group>"; };
-		C2AD437C1EE53FF600B231BE /* KKQRCodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKQRCodeTool.m; sourceTree = "<group>"; };
-		C2AD437D1EE53FF600B231BE /* UIImage+SGHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SGHelper.h"; sourceTree = "<group>"; };
-		C2AD437E1EE53FF600B231BE /* UIImage+SGHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SGHelper.m"; sourceTree = "<group>"; };
-		C2AD43821EE548EF00B231BE /* QRCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCViewController.h; sourceTree = "<group>"; };
-		C2AD43831EE548EF00B231BE /* QRCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCViewController.m; sourceTree = "<group>"; };
+		C2AD43821EE548EF00B231BE /* QRCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = QRCViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C2AD43831EE548EF00B231BE /* QRCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = QRCViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C2AD43841EE548EF00B231BE /* QRCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCViewController.xib; sourceTree = "<group>"; };
-		C2AD43871EE5499E00B231BE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		C2AD43881EE5499E00B231BE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C2AD43871EE5499E00B231BE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MainViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C2AD43881EE5499E00B231BE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C2AD43891EE5499E00B231BE /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		C2AD438C1EE54A6500B231BE /* XIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBViewController.h; sourceTree = "<group>"; };
-		C2AD438D1EE54A6500B231BE /* XIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBViewController.m; sourceTree = "<group>"; };
+		C2AD438C1EE54A6500B231BE /* XIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = XIBViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C2AD438D1EE54A6500B231BE /* XIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = XIBViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C2AD438E1EE54A6500B231BE /* XIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
-		C2AD43911EE5606000B231BE /* QRCodeScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = QRCodeScanningVC.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		C2AD43921EE5606000B231BE /* QRCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = QRCodeScanningVC.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		C2AD43971EE5614900B231BE /* KKQRCodeScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKQRCodeScanningVC.h; sourceTree = "<group>"; };
-		C2AD43981EE5614900B231BE /* KKQRCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKQRCodeScanningVC.m; sourceTree = "<group>"; };
-		C2AD439D1EE561D900B231BE /* KKQRCodeScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKQRCodeScanningView.h; sourceTree = "<group>"; };
-		C2AD439E1EE561D900B231BE /* KKQRCodeScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKQRCodeScanningView.m; sourceTree = "<group>"; };
-		C2AD43A01EE5705B00B231BE /* KKQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KKQRCode.bundle; sourceTree = "<group>"; };
+		E9519F0E1650E5CBE7225213 /* libPods-KKQRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKQRCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F888D55AB8DB9D460FFB6DD9 /* Pods-KKQRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKQRCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +56,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3FB05B526E746D548783A0 /* libPods-KKQRCode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55FC067D823D8C882579FA1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9519F0E1650E5CBE7225213 /* libPods-KKQRCode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2365C66B710FFD158F67A6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F888D55AB8DB9D460FFB6DD9 /* Pods-KKQRCode.debug.xcconfig */,
+				96B2E2C10A7D84E1DDC35DAC /* Pods-KKQRCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C2AD43541EE53FBC00B231BE = {
 			isa = PBXGroup;
 			children = (
 				C2AD435F1EE53FBC00B231BE /* KKQRCode */,
 				C2AD435E1EE53FBC00B231BE /* Products */,
+				A2365C66B710FFD158F67A6F /* Pods */,
+				55FC067D823D8C882579FA1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +101,6 @@
 		C2AD435F1EE53FBC00B231BE /* KKQRCode */ = {
 			isa = PBXGroup;
 			children = (
-				C2AD43771EE53FE200B231BE /* KKQRCode */,
 				C2AD43631EE53FBC00B231BE /* AppDelegate.h */,
 				C2AD43641EE53FBC00B231BE /* AppDelegate.m */,
 				C2AD43871EE5499E00B231BE /* MainViewController.h */,
@@ -110,6 +114,9 @@
 				C2AD438C1EE54A6500B231BE /* XIBViewController.h */,
 				C2AD438D1EE54A6500B231BE /* XIBViewController.m */,
 				C2AD438E1EE54A6500B231BE /* XIBViewController.xib */,
+				C2A075891EEEC4D30095B568 /* ShareViewController.h */,
+				C2A0758A1EEEC4D30095B568 /* ShareViewController.m */,
+				C2A0758B1EEEC4D30095B568 /* ShareViewController.xib */,
 				C2AD436C1EE53FBC00B231BE /* Assets.xcassets */,
 				C2AD436E1EE53FBC00B231BE /* LaunchScreen.storyboard */,
 				C2AD43711EE53FBC00B231BE /* Info.plist */,
@@ -126,29 +133,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C2AD43771EE53FE200B231BE /* KKQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				C2AD43781EE53FF600B231BE /* KKQRCode.h */,
-				C28D224F1EE67E56009E167F /* RSAUtil.h */,
-				C28D22501EE67E56009E167F /* RSAUtil.m */,
-				C2AD43791EE53FF600B231BE /* KKQRCodeConst.h */,
-				C2AD437A1EE53FF600B231BE /* KKQRCodeConst.m */,
-				C2AD437B1EE53FF600B231BE /* KKQRCodeTool.h */,
-				C2AD437C1EE53FF600B231BE /* KKQRCodeTool.m */,
-				C2AD437D1EE53FF600B231BE /* UIImage+SGHelper.h */,
-				C2AD437E1EE53FF600B231BE /* UIImage+SGHelper.m */,
-				C2AD43911EE5606000B231BE /* QRCodeScanningVC.h */,
-				C2AD43921EE5606000B231BE /* QRCodeScanningVC.m */,
-				C2AD43971EE5614900B231BE /* KKQRCodeScanningVC.h */,
-				C2AD43981EE5614900B231BE /* KKQRCodeScanningVC.m */,
-				C2AD439D1EE561D900B231BE /* KKQRCodeScanningView.h */,
-				C2AD439E1EE561D900B231BE /* KKQRCodeScanningView.m */,
-				C2AD43A01EE5705B00B231BE /* KKQRCode.bundle */,
-			);
-			name = KKQRCode;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2AD43741EE53FBC00B231BE /* Build configuration list for PBXNativeTarget "KKQRCode" */;
 			buildPhases = (
+				FC3A548E6D3F2C2AF9B630FA /* [CP] Check Pods Manifest.lock */,
 				C2AD43591EE53FBC00B231BE /* Sources */,
 				C2AD435A1EE53FBC00B231BE /* Frameworks */,
 				C2AD435B1EE53FBC00B231BE /* Resources */,
+				9359942C70D0D636DA5BE70C /* [CP] Embed Pods Frameworks */,
+				D82959728D92564392EA3F87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,7 +168,7 @@
 					C2AD435C1EE53FBC00B231BE = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 58VA3BYFVV;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -212,32 +199,74 @@
 				C2AD43901EE54A6500B231BE /* XIBViewController.xib in Resources */,
 				C2AD43701EE53FBC00B231BE /* LaunchScreen.storyboard in Resources */,
 				C2AD43861EE548EF00B231BE /* QRCViewController.xib in Resources */,
-				C2AD43A11EE5705B00B231BE /* KKQRCode.bundle in Resources */,
 				C21D29A81EEE79CE001A12BA /* share_kber@3x.png in Resources */,
 				C2AD436D1EE53FBC00B231BE /* Assets.xcassets in Resources */,
+				C2A0758D1EEEC4D30095B568 /* ShareViewController.xib in Resources */,
 				C2AD438B1EE5499E00B231BE /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9359942C70D0D636DA5BE70C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D82959728D92564392EA3F87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3A548E6D3F2C2AF9B630FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2AD43591EE53FBC00B231BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C28D22511EE67E56009E167F /* RSAUtil.m in Sources */,
 				C2AD438F1EE54A6500B231BE /* XIBViewController.m in Sources */,
-				C2AD437F1EE53FF600B231BE /* KKQRCodeConst.m in Sources */,
 				C2AD43851EE548EF00B231BE /* QRCViewController.m in Sources */,
-				C2AD43931EE5606000B231BE /* QRCodeScanningVC.m in Sources */,
-				C2AD439F1EE561D900B231BE /* KKQRCodeScanningView.m in Sources */,
-				C2AD43801EE53FF600B231BE /* KKQRCodeTool.m in Sources */,
 				C2AD43651EE53FBC00B231BE /* AppDelegate.m in Sources */,
 				C2AD438A1EE5499E00B231BE /* MainViewController.m in Sources */,
 				C2AD43621EE53FBC00B231BE /* main.m in Sources */,
-				C2AD43991EE5614900B231BE /* KKQRCodeScanningVC.m in Sources */,
-				C2AD43811EE53FF600B231BE /* UIImage+SGHelper.m in Sources */,
+				C2A0758C1EEEC4D30095B568 /* ShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,10 +378,13 @@
 		};
 		C2AD43751EE53FBC00B231BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F888D55AB8DB9D460FFB6DD9 /* Pods-KKQRCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bin Yan (Z3X4F9L6B7)";
-				DEVELOPMENT_TEAM = 58VA3BYFVV;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 洪江 余 (SUMF3H4Y36)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KKQRCode",
@@ -362,17 +394,20 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.topbroker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9b0f0cb3-b1b9-46c6-8ae5-9c7e7e0d088c";
-				PROVISIONING_PROFILE_SPECIFIER = "TopBroker Development Profile";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		C2AD43761EE53FBC00B231BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B2E2C10A7D84E1DDC35DAC /* Pods-KKQRCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bin Yan (Z3X4F9L6B7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 洪江 余 (SUMF3H4Y36)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KKQRCode",
