@@ -34,14 +34,11 @@
     WXImageObject *imageObject = [WXImageObject object];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"share_kber@3x" ofType:@"png"];
     imageObject.imageData = [NSData dataWithContentsOfFile:path];
+    message.mediaObject = imageObject;
     
     ///分享网页
     WXWebpageObject *webObject = [WXWebpageObject object];
     webObject.webpageUrl = @"http://www.jianshu.com/p/1c1018580a58";
-    
-    
-    
-    
     message.mediaObject = webObject;
     
     
@@ -66,17 +63,17 @@
     ///网页分享
     QQApiWebImageObject *webObj = [QQApiWebImageObject objectWithPreviewImageURL:[NSURL URLWithString:@"http://www.baidu.com"] title:@"电影" description:@"好像打不开"];
     
-    SendMessageToQQReq *req = [SendMessageToQQReq reqWithContent:webObj];
+    SendMessageToQQReq *req = [SendMessageToQQReq reqWithContent:imageObj];
     QQApiSendResultCode sent = [QQApiInterface sendReq:req];
     NSLog(@"-=-=-=-=-=%d", sent);
 }
 - (IBAction)weibo:(id)sender {
     NSLog(@"微博");
     ///文本消息
-    WBMessageObject *messageObject = [[WBMessageObject alloc] init];
+    WBMessageObject *messageObject = [WBMessageObject message];
     messageObject.text = @"微博发送消息";
     
-//    ///发送图片
+    ///发送图片
     WBImageObject *imageObject = [WBImageObject object];
     imageObject.imageData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"share_kber@3x" ofType:@"png"]];
     
@@ -84,17 +81,18 @@
     
     ///分享链接
     WBWebpageObject *webObject = [WBWebpageObject object];
-    webObject.objectID = @"YHJ";
+    webObject.objectID = @"identifier1";
     webObject.description = [NSString stringWithFormat:NSLocalizedString(@"分享网页内容简介-%.0f", nil), [[NSDate date] timeIntervalSince1970]];
     // 多媒体内容缩略图
-//    webObject.thumbnailData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"share_kber@3x" ofType:@"png"]];
+    webObject.thumbnailData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"share_kber@3x" ofType:@"png"]];
     webObject.webpageUrl = @"http://sina.cn?a=1";
+    ///网页分享时必须添加标题内容
+    webObject.title = @"微博分享";
     
     messageObject.mediaObject = webObject;
    
     
     WBSendMessageToWeiboRequest *req = [WBSendMessageToWeiboRequest requestWithMessage:messageObject];
-    
     [WeiboSDK sendRequest:req];
 }
 

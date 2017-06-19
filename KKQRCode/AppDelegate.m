@@ -28,20 +28,23 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    ///微信分享
     [WXApi registerApp:@"wx4ecdec0638783c97"];///微信注册
+    //向微信注册支持的文件类型
+    UInt64 typeFlag = MMAPP_SUPPORT_TEXT | MMAPP_SUPPORT_PICTURE | MMAPP_SUPPORT_LOCATION | MMAPP_SUPPORT_VIDEO |MMAPP_SUPPORT_AUDIO | MMAPP_SUPPORT_WEBPAGE | MMAPP_SUPPORT_DOC | MMAPP_SUPPORT_DOCX | MMAPP_SUPPORT_PPT | MMAPP_SUPPORT_PPTX | MMAPP_SUPPORT_XLS | MMAPP_SUPPORT_XLSX | MMAPP_SUPPORT_PDF;
     
+    [WXApi registerAppSupportContentFlag:typeFlag];
+    
+    ///qq分享
     TencentOAuth *tencentAuth = [[TencentOAuth alloc] initWithAppId:@"1104627616" andDelegate:nil];///腾旭注册
     if (tencentAuth) {
         NSLog(@"%@",tencentAuth);
     }
     
+    ///微博分享
     [WeiboSDK registerApp:@"3607531417"];
-//    [WXApi registerApp:@"wxd930ea5d5a258f4f" enableMTA:YES];
+    [WeiboSDK enableDebugMode:YES];
     
-    //向微信注册支持的文件类型
-    UInt64 typeFlag = MMAPP_SUPPORT_TEXT | MMAPP_SUPPORT_PICTURE | MMAPP_SUPPORT_LOCATION | MMAPP_SUPPORT_VIDEO |MMAPP_SUPPORT_AUDIO | MMAPP_SUPPORT_WEBPAGE | MMAPP_SUPPORT_DOC | MMAPP_SUPPORT_DOCX | MMAPP_SUPPORT_PPT | MMAPP_SUPPORT_PPTX | MMAPP_SUPPORT_XLS | MMAPP_SUPPORT_XLSX | MMAPP_SUPPORT_PDF;
-    
-    [WXApi registerAppSupportContentFlag:typeFlag];
     
     return YES;
 }
@@ -74,6 +77,11 @@
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(nonnull NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(nonnull id)annotation
+{
+    return [WeiboSDK handleOpenURL:url delegate:self];
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
 {
     return [WeiboSDK handleOpenURL:url delegate:self];
 }
