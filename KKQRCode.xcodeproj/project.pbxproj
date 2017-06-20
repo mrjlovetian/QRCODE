@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C21D29A71EEE79CE001A12BA /* share_kber@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C21D29A51EEE79CE001A12BA /* share_kber@2x.png */; };
-		C21D29A81EEE79CE001A12BA /* share_kber@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C21D29A61EEE79CE001A12BA /* share_kber@3x.png */; };
+		C284BE7A1EF8A5CF0024DF5D /* share_kber@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C284BE781EF8A5CF0024DF5D /* share_kber@2x.png */; };
+		C284BE7B1EF8A5CF0024DF5D /* share_kber@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C284BE791EF8A5CF0024DF5D /* share_kber@3x.png */; };
 		C2A0758C1EEEC4D30095B568 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A0758A1EEEC4D30095B568 /* ShareViewController.m */; };
 		C2A0758D1EEEC4D30095B568 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A0758B1EEEC4D30095B568 /* ShareViewController.xib */; };
 		C2AD43621EE53FBC00B231BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD43611EE53FBC00B231BE /* main.m */; };
@@ -26,8 +26,8 @@
 
 /* Begin PBXFileReference section */
 		96B2E2C10A7D84E1DDC35DAC /* Pods-KKQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKQRCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode.release.xcconfig"; sourceTree = "<group>"; };
-		C21D29A51EEE79CE001A12BA /* share_kber@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@2x.png"; sourceTree = "<group>"; };
-		C21D29A61EEE79CE001A12BA /* share_kber@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@3x.png"; sourceTree = "<group>"; };
+		C284BE781EF8A5CF0024DF5D /* share_kber@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@2x.png"; sourceTree = "<group>"; };
+		C284BE791EF8A5CF0024DF5D /* share_kber@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@3x.png"; sourceTree = "<group>"; };
 		C2A075891EEEC4D30095B568 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ShareViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		C2A0758A1EEEC4D30095B568 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ShareViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C2A0758B1EEEC4D30095B568 /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 				C2AD43641EE53FBC00B231BE /* AppDelegate.m */,
 				C2AD43871EE5499E00B231BE /* MainViewController.h */,
 				C2AD43881EE5499E00B231BE /* MainViewController.m */,
-				C21D29A51EEE79CE001A12BA /* share_kber@2x.png */,
-				C21D29A61EEE79CE001A12BA /* share_kber@3x.png */,
+				C284BE781EF8A5CF0024DF5D /* share_kber@2x.png */,
+				C284BE791EF8A5CF0024DF5D /* share_kber@3x.png */,
 				C2AD43891EE5499E00B231BE /* MainViewController.xib */,
 				C2AD43821EE548EF00B231BE /* QRCViewController.h */,
 				C2AD43831EE548EF00B231BE /* QRCViewController.m */,
@@ -195,12 +195,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21D29A71EEE79CE001A12BA /* share_kber@2x.png in Resources */,
+				C284BE7A1EF8A5CF0024DF5D /* share_kber@2x.png in Resources */,
 				C2AD43901EE54A6500B231BE /* XIBViewController.xib in Resources */,
 				C2AD43701EE53FBC00B231BE /* LaunchScreen.storyboard in Resources */,
 				C2AD43861EE548EF00B231BE /* QRCViewController.xib in Resources */,
-				C21D29A81EEE79CE001A12BA /* share_kber@3x.png in Resources */,
 				C2AD436D1EE53FBC00B231BE /* Assets.xcassets in Resources */,
+				C284BE7B1EF8A5CF0024DF5D /* share_kber@3x.png in Resources */,
 				C2A0758D1EEEC4D30095B568 /* ShareViewController.xib in Resources */,
 				C2AD438B1EE5499E00B231BE /* MainViewController.xib in Resources */,
 			);
