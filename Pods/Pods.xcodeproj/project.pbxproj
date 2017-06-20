@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040BB4E8C276E1002CD51A72C88F21B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0CD5A4F4568B04E982E96B4048F6DAD4 /* YHJQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE83AC5783B16E4F6D46FE3BC2A31DD /* YHJQRCodeTool.m */; };
-		21D5EE560F48C2AF0357B2A505E1E486 /* YHJQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3667A5669E25BF9A17EB7731035148C3 /* YHJQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		258AE8D7442D2E10165CD9CFD22F0F24 /* YHJQRCodeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD19B9235C228822B5F11A4683DAACC /* YHJQRCodeConst.m */; };
-		4BD5EE1F653C195B1B88251682947E3E /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9641B5F623F4CC0A6E80347DF8E375A /* WeiboSDK.bundle */; };
-		4E2BBC64BA4BE5E36B62B0E861BEF936 /* QRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D06791ED3044CE9EFA00A5E31FD026 /* QRCodeScanningVC.m */; };
-		4EF543328ABFC2BB46C43EC4136E4997 /* Pods-KKQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81271DA7F92A747A63F5950074F0BD4 /* Pods-KKQRCode-dummy.m */; };
-		5B229E94D6613718D88FFDD76CB034E3 /* YHJQRCodeConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 8726466200EE653FB32C7990CAB72FB9 /* YHJQRCodeConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		788FC57EC5474AA538F6A0A31455A0E9 /* UIImage+SGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4669BE707384B6F2736039D4DE48F1 /* UIImage+SGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85477206FDB76BB069A661AD11F63CEE /* YHJQRCodeScanningVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E1D1C81BBCE80E6EA6142F55C63C42 /* YHJQRCodeScanningVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A5F4EFD49B5643167010CEE1EBD5422 /* QRCodeScanningVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 926718DBC0E597F1A2AD6D771E0F45B7 /* QRCodeScanningVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91EAA63C657A3527D676EC3131291CCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9D193BC47F935A827D88CB171CFE5512 /* YHJQRCodeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F29FC6409D730DCD398D2B5195B8A9 /* YHJQRCodeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B003590A8B7CCB903E3F3F84DE9300D8 /* UIImage+SGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C08B4B48FE4BED50C6D4D18124E46F /* UIImage+SGHelper.m */; };
-		B87210788C475E9EFDDC26FFC9734696 /* YHJQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = B35C35C2982E87AD43FFC159B3A4D8EE /* YHJQRCodeScanningView.m */; };
-		BA36E04B9C5FA5F34D0D012F98359176 /* YHJQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FE498AAA9E725C54EE359EBEE3C2 /* YHJQRCode-dummy.m */; };
-		BB4881C4518392A119BD98C516535258 /* YHJQRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA76D399B77F51A552120A8AD796E66B /* YHJQRCodeScanningVC.m */; };
-		CBE5C24000A80467A7A47A8AB6DC2FCC /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EB45815C5CE1BD490AC11C71292DC9 /* RSAUtil.m */; };
-		F3C64B42A0EA347C9AB652B86631F981 /* RSAUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F25B664DEB8358F6E67A3179E3B7EEE2 /* RSAUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F63615AFBBF0D7EAB5030AA97694B5E8 /* YHJQRCodeScanningView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5A1D8C5A8A905D4FD3EB43FE464030 /* YHJQRCodeScanningView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03168E707D942240B9102F17A1C5ACE2 /* YHJQRCodeScanningVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E1D1C81BBCE80E6EA6142F55C63C42 /* YHJQRCodeScanningVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13AD1F262918F326C9BCB9DD2D179ECC /* YHJQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3667A5669E25BF9A17EB7731035148C3 /* YHJQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		149325F974E2342BCF23E9E78524790A /* YHJQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FE498AAA9E725C54EE359EBEE3C2 /* YHJQRCode-dummy.m */; };
+		288EC5DAE601C1565E65C83E3F15F130 /* QRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D06791ED3044CE9EFA00A5E31FD026 /* QRCodeScanningVC.m */; };
+		2A94580BF5D4612289EEC3AE927E4457 /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EB45815C5CE1BD490AC11C71292DC9 /* RSAUtil.m */; };
+		2AB8A26ACABA9F31D106EFB508013AE0 /* YHJQRCodeScanningView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5A1D8C5A8A905D4FD3EB43FE464030 /* YHJQRCodeScanningView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D4905C980F744A5BEE1108911BF1A72 /* YHJQRCodeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD19B9235C228822B5F11A4683DAACC /* YHJQRCodeConst.m */; };
+		3800F8C749A91C56C42F6B6475ABFAB1 /* QRCodeScanningVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 926718DBC0E597F1A2AD6D771E0F45B7 /* QRCodeScanningVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C9E5377304EBB35A4E7DF83B01A82CA /* Pods-QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA2457B5E2E5F6ADD2996025B0908A /* Pods-QRCode-dummy.m */; };
+		434CC2149E2DFD3DF1A7A7C90ED48A29 /* UIImage+SGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C08B4B48FE4BED50C6D4D18124E46F /* UIImage+SGHelper.m */; };
+		50802FC94060A3F202B52D0CB11B1ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		76DE895BD6A4C94E8058AE5FE48DE847 /* YHJQRCodeConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 8726466200EE653FB32C7990CAB72FB9 /* YHJQRCodeConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C02F6F3EEB977E54260D6FE0197CA63 /* YHJQRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA76D399B77F51A552120A8AD796E66B /* YHJQRCodeScanningVC.m */; };
+		9E49D3CDE89177BE6B5E544BE35EA1A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AD8639C6438C7679995599DD55754E43 /* UIImage+SGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4669BE707384B6F2736039D4DE48F1 /* UIImage+SGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55B5AE6E6884769B5B32F48FF9E9D03 /* YHJQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = B35C35C2982E87AD43FFC159B3A4D8EE /* YHJQRCodeScanningView.m */; };
+		D5842471D72CF8317C32455428D58563 /* YHJQRCodeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F29FC6409D730DCD398D2B5195B8A9 /* YHJQRCodeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4A4B570A62C280E83723778EEFFE82 /* RSAUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F25B664DEB8358F6E67A3179E3B7EEE2 /* RSAUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4552E8990A614A5F0FF55AF877838DA /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9641B5F623F4CC0A6E80347DF8E375A /* WeiboSDK.bundle */; };
+		FBE82712B64B26D29DF3B24DE1D68EE0 /* YHJQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE83AC5783B16E4F6D46FE3BC2A31DD /* YHJQRCodeTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C09F26B89B91B70BEFBE3E19D3B9B8C /* PBXContainerItemProxy */ = {
+		44312AC2C279F34F0C2F3D9C4B91B667 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD02EE19FCA14F1535AF984F4C65BA20;
-			remoteInfo = YHJQRCode;
-		};
-		F6B0AD492BF36403872087E8134A03A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6C40EFC7C51B1B8371A908B5525BBAB;
+			remoteGlobalIDString = 382A1FBB3E0FF82F1A67ABD4578F1278;
 			remoteInfo = "Weibo-Weibo";
+		};
+		4A492A58033353E59D06E05B4448051E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91A9420F018A241E2C5BFA4AF6F79A8;
+			remoteInfo = YHJQRCode;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09F87D4B2AB448ECA11BA71EB896AC43 /* libPods-QRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QRCode.a"; path = "libPods-QRCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE83AC5783B16E4F6D46FE3BC2A31DD /* YHJQRCodeTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHJQRCodeTool.m; path = YHJQRCode/Classes/YHJQRCodeTool.m; sourceTree = "<group>"; };
-		0EEBAC0660F5656B0203A6B7B353BCB4 /* Pods-KKQRCode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKQRCode-acknowledgements.plist"; sourceTree = "<group>"; };
 		12644DE1E96C47C2A759D9DDD12EF4C7 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.7.7/WechatAuthSDK.h; sourceTree = "<group>"; };
+		187ACEE469ABF789DC6F89FCAD97FAB3 /* Pods-QRCode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRCode-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B659AD7E83A71B1C1DED87CFA65453C /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		1FD19B9235C228822B5F11A4683DAACC /* YHJQRCodeConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHJQRCodeConst.m; path = YHJQRCode/Classes/YHJQRCodeConst.m; sourceTree = "<group>"; };
+		2200DE16EAC6B8616CC529DDF12A8516 /* Pods-QRCode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRCode-acknowledgements.plist"; sourceTree = "<group>"; };
 		22C08B4B48FE4BED50C6D4D18124E46F /* UIImage+SGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SGHelper.m"; path = "YHJQRCode/Classes/UIImage+SGHelper.m"; sourceTree = "<group>"; };
 		23D5C3C8997B9EBC5A18F718A9AEFDC6 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
 		2FB4A9F02D88AF8FDC1DE0FACCFBECF1 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		3667A5669E25BF9A17EB7731035148C3 /* YHJQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHJQRCode.h; path = YHJQRCode/Classes/YHJQRCode.h; sourceTree = "<group>"; };
+		3C577065F96B2B683FA67C6D7C8FD237 /* Pods-QRCode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRCode-resources.sh"; sourceTree = "<group>"; };
 		3C77175FF6926B8614BF3516F6C16A2C /* YHJQRCode.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YHJQRCode.bundle; path = YHJQRCode/Classes/YHJQRCode.bundle; sourceTree = "<group>"; };
-		3F82D71E2E645EF3B0E883AA0FCEAB48 /* Weibo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Weibo.bundle; path = Weibo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D06791ED3044CE9EFA00A5E31FD026 /* QRCodeScanningVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCodeScanningVC.m; path = YHJQRCode/Classes/QRCodeScanningVC.m; sourceTree = "<group>"; };
 		46D08AE7AA833D5FAD2EA3039109F60D /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.7.7/WXApiObject.h; sourceTree = "<group>"; };
-		63B81C355D76737056EB056555BD7EB6 /* Pods-KKQRCode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKQRCode-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A4669BE707384B6F2736039D4DE48F1 /* UIImage+SGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SGHelper.h"; path = "YHJQRCode/Classes/UIImage+SGHelper.h"; sourceTree = "<group>"; };
-		70ADA357579B9024EEE3BFE924E15920 /* libYHJQRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYHJQRCode.a; path = libYHJQRCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		736802AE0C8BF7FC8DFBEB6AB845611D /* Pods-KKQRCode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKQRCode-frameworks.sh"; sourceTree = "<group>"; };
+		746EA9C3BF259ED258ED4114D1896CEA /* Pods-QRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCode.debug.xcconfig"; sourceTree = "<group>"; };
 		76E1D1C81BBCE80E6EA6142F55C63C42 /* YHJQRCodeScanningVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHJQRCodeScanningVC.h; path = YHJQRCode/Classes/YHJQRCodeScanningVC.h; sourceTree = "<group>"; };
 		833490F4D0AA3AD5B075540A1477D8A2 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
 		8495FE498AAA9E725C54EE359EBEE3C2 /* YHJQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHJQRCode-dummy.m"; sourceTree = "<group>"; };
@@ -72,45 +72,45 @@
 		926718DBC0E597F1A2AD6D771E0F45B7 /* QRCodeScanningVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeScanningVC.h; path = YHJQRCode/Classes/QRCodeScanningVC.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4F29FC6409D730DCD398D2B5195B8A9 /* YHJQRCodeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHJQRCodeTool.h; path = YHJQRCode/Classes/YHJQRCodeTool.h; sourceTree = "<group>"; };
+		A9FA2457B5E2E5F6ADD2996025B0908A /* Pods-QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRCode-dummy.m"; sourceTree = "<group>"; };
 		AA03CF4ADAADA07F3456CBE8E9EE5EDE /* YHJQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHJQRCode-prefix.pch"; sourceTree = "<group>"; };
+		B0B1F0CB66D257BAD8BC2071D729C18D /* Weibo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Weibo.bundle; path = Weibo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35C35C2982E87AD43FFC159B3A4D8EE /* YHJQRCodeScanningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHJQRCodeScanningView.m; path = YHJQRCode/Classes/YHJQRCodeScanningView.m; sourceTree = "<group>"; };
 		B765E247AE043323EE7834B2D85DC2EF /* ResourceBundle-Weibo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Weibo-Info.plist"; sourceTree = "<group>"; };
 		BC5A1D8C5A8A905D4FD3EB43FE464030 /* YHJQRCodeScanningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHJQRCodeScanningView.h; path = YHJQRCode/Classes/YHJQRCodeScanningView.h; sourceTree = "<group>"; };
-		BCE289961913324A3190A34DC11B33EA /* Pods-KKQRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKQRCode.debug.xcconfig"; sourceTree = "<group>"; };
-		C81271DA7F92A747A63F5950074F0BD4 /* Pods-KKQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKQRCode-dummy.m"; sourceTree = "<group>"; };
+		C2C772C9EF12EF4C00DB0FFFA8045D5C /* libYHJQRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYHJQRCode.a; path = libYHJQRCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA6AF61A43B3AD124B07FC856BF1417 /* Pods-QRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCode.release.xcconfig"; sourceTree = "<group>"; };
 		CF368D901ACAAC7DA09DB32C63049D1C /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.7.7/WXApi.h; sourceTree = "<group>"; };
 		D2EB45815C5CE1BD490AC11C71292DC9 /* RSAUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSAUtil.m; path = YHJQRCode/Classes/RSAUtil.m; sourceTree = "<group>"; };
 		D4B1A048C067E13159E7CAF14D996C44 /* YHJQRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHJQRCode.xcconfig; sourceTree = "<group>"; };
 		D79A02959A85594FF12185A3879B7933 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.7.7/libWeChatSDK.a; sourceTree = "<group>"; };
 		DA76D399B77F51A552120A8AD796E66B /* YHJQRCodeScanningVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHJQRCodeScanningVC.m; path = YHJQRCode/Classes/YHJQRCodeScanningVC.m; sourceTree = "<group>"; };
-		DA82390DDCE81AC8191DD1748DDD5C44 /* libPods-KKQRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KKQRCode.a"; path = "libPods-KKQRCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E61F7BF33CFD2C47A8F51EEAA56817CF /* Pods-KKQRCode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKQRCode-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F0BE4DCF0FDC699E2A55290027E4C815 /* Pods-KKQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKQRCode.release.xcconfig"; sourceTree = "<group>"; };
 		F25B664DEB8358F6E67A3179E3B7EEE2 /* RSAUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSAUtil.h; path = YHJQRCode/Classes/RSAUtil.h; sourceTree = "<group>"; };
 		F9641B5F623F4CC0A6E80347DF8E375A /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		FB0784D22DE52326EF5953C62CC177D7 /* Pods-QRCode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRCode-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A52831B3B3AD467E4DE7BFDFAEFE836 /* Frameworks */ = {
+		6F0B23866126A7C92A0F4B7EB40D2179 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040BB4E8C276E1002CD51A72C88F21B4 /* Foundation.framework in Frameworks */,
+				50802FC94060A3F202B52D0CB11B1ED0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A34C9E8D05016981877C776A53F7B348 /* Frameworks */ = {
+		BBC361DB1D396AD27D0FF8C5F9A1B4CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E49D3CDE89177BE6B5E544BE35EA1A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7B4CF310D0A64AEF9DA0CF000BE8388 /* Frameworks */ = {
+		E484CB04A44753ADA7F4389C28F36130 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91EAA63C657A3527D676EC3131291CCF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,31 +142,6 @@
 				833490F4D0AA3AD5B075540A1477D8A2 /* libWeiboSDK.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		23A3680730EFC8D3FE8A2C63E7B8C988 /* Pods-KKQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				E61F7BF33CFD2C47A8F51EEAA56817CF /* Pods-KKQRCode-acknowledgements.markdown */,
-				0EEBAC0660F5656B0203A6B7B353BCB4 /* Pods-KKQRCode-acknowledgements.plist */,
-				C81271DA7F92A747A63F5950074F0BD4 /* Pods-KKQRCode-dummy.m */,
-				736802AE0C8BF7FC8DFBEB6AB845611D /* Pods-KKQRCode-frameworks.sh */,
-				63B81C355D76737056EB056555BD7EB6 /* Pods-KKQRCode-resources.sh */,
-				BCE289961913324A3190A34DC11B33EA /* Pods-KKQRCode.debug.xcconfig */,
-				F0BE4DCF0FDC699E2A55290027E4C815 /* Pods-KKQRCode.release.xcconfig */,
-			);
-			name = "Pods-KKQRCode";
-			path = "Target Support Files/Pods-KKQRCode";
-			sourceTree = "<group>";
-		};
-		38E3C84CFC0AD9903FDB3212F9478CD0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DA82390DDCE81AC8191DD1748DDD5C44 /* libPods-KKQRCode.a */,
-				70ADA357579B9024EEE3BFE924E15920 /* libYHJQRCode.a */,
-				3F82D71E2E645EF3B0E883AA0FCEAB48 /* Weibo.bundle */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4F47DF5AAB5E9541377D9440E463514B /* Support Files */ = {
@@ -242,6 +217,14 @@
 			name = Code;
 			sourceTree = "<group>";
 		};
+		70ADEAE3021162F52AE865AE4531D0CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE536EA54716A704A94DF316280C5690 /* Pods-QRCode */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		724EC7A68541D36AB2B97FCF4AFC4AB3 /* Tencent_SDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,8 +241,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				602DBE52A10C2A5168E3930184F5F582 /* Pods */,
-				38E3C84CFC0AD9903FDB3212F9478CD0 /* Products */,
-				C5C34C4E7BF71332497D1CE7B443557C /* Targets Support Files */,
+				D5534730E361647B9E403D5DE20202BB /* Products */,
+				70ADEAE3021162F52AE865AE4531D0CD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -291,14 +274,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C5C34C4E7BF71332497D1CE7B443557C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				23A3680730EFC8D3FE8A2C63E7B8C988 /* Pods-KKQRCode */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		CA0AF581AD3057B6724CF8BA82192D7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,12 +282,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE536EA54716A704A94DF316280C5690 /* Pods-QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				187ACEE469ABF789DC6F89FCAD97FAB3 /* Pods-QRCode-acknowledgements.markdown */,
+				2200DE16EAC6B8616CC529DDF12A8516 /* Pods-QRCode-acknowledgements.plist */,
+				A9FA2457B5E2E5F6ADD2996025B0908A /* Pods-QRCode-dummy.m */,
+				FB0784D22DE52326EF5953C62CC177D7 /* Pods-QRCode-frameworks.sh */,
+				3C577065F96B2B683FA67C6D7C8FD237 /* Pods-QRCode-resources.sh */,
+				746EA9C3BF259ED258ED4114D1896CEA /* Pods-QRCode.debug.xcconfig */,
+				CEA6AF61A43B3AD124B07FC856BF1417 /* Pods-QRCode.release.xcconfig */,
+			);
+			name = "Pods-QRCode";
+			path = "Target Support Files/Pods-QRCode";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5534730E361647B9E403D5DE20202BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F87D4B2AB448ECA11BA71EB896AC43 /* libPods-QRCode.a */,
+				C2C772C9EF12EF4C00DB0FFFA8045D5C /* libYHJQRCode.a */,
+				B0B1F0CB66D257BAD8BC2071D729C18D /* Weibo.bundle */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		DCD7B857D013D73F97794C090B4CC9C3 /* Resources */ = {
@@ -326,49 +326,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D1C8BA3B5BF7D9CEECC6B5B3675A4CB1 /* Headers */ = {
+		0DB617A11E845E9E34E91DC712D3AA08 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5F4EFD49B5643167010CEE1EBD5422 /* QRCodeScanningVC.h in Headers */,
-				F3C64B42A0EA347C9AB652B86631F981 /* RSAUtil.h in Headers */,
-				788FC57EC5474AA538F6A0A31455A0E9 /* UIImage+SGHelper.h in Headers */,
-				21D5EE560F48C2AF0357B2A505E1E486 /* YHJQRCode.h in Headers */,
-				5B229E94D6613718D88FFDD76CB034E3 /* YHJQRCodeConst.h in Headers */,
-				85477206FDB76BB069A661AD11F63CEE /* YHJQRCodeScanningVC.h in Headers */,
-				F63615AFBBF0D7EAB5030AA97694B5E8 /* YHJQRCodeScanningView.h in Headers */,
-				9D193BC47F935A827D88CB171CFE5512 /* YHJQRCodeTool.h in Headers */,
+				3800F8C749A91C56C42F6B6475ABFAB1 /* QRCodeScanningVC.h in Headers */,
+				DB4A4B570A62C280E83723778EEFFE82 /* RSAUtil.h in Headers */,
+				AD8639C6438C7679995599DD55754E43 /* UIImage+SGHelper.h in Headers */,
+				13AD1F262918F326C9BCB9DD2D179ECC /* YHJQRCode.h in Headers */,
+				76DE895BD6A4C94E8058AE5FE48DE847 /* YHJQRCodeConst.h in Headers */,
+				03168E707D942240B9102F17A1C5ACE2 /* YHJQRCodeScanningVC.h in Headers */,
+				2AB8A26ACABA9F31D106EFB508013AE0 /* YHJQRCodeScanningView.h in Headers */,
+				D5842471D72CF8317C32455428D58563 /* YHJQRCodeTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B51219889FCEF5487CF758ABC7974113 /* Pods-KKQRCode */ = {
+		382A1FBB3E0FF82F1A67ABD4578F1278 /* Weibo-Weibo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53A1CF7729E9C2487DA90D5939480BD0 /* Build configuration list for PBXNativeTarget "Pods-KKQRCode" */;
+			buildConfigurationList = F158A2D575C6FA2D1250C48E531E20A4 /* Build configuration list for PBXNativeTarget "Weibo-Weibo" */;
 			buildPhases = (
-				2F27C7755E83E8066B9C7A44F34393FC /* Sources */,
-				3A52831B3B3AD467E4DE7BFDFAEFE836 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				714450444B1DA88C4C78CAF43B3C40F6 /* PBXTargetDependency */,
-				E24600422B1F70ECEC862CE36519205A /* PBXTargetDependency */,
-			);
-			name = "Pods-KKQRCode";
-			productName = "Pods-KKQRCode";
-			productReference = DA82390DDCE81AC8191DD1748DDD5C44 /* libPods-KKQRCode.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D6C40EFC7C51B1B8371A908B5525BBAB /* Weibo-Weibo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 355D7B351352BEA90C4397AD87DF8F8A /* Build configuration list for PBXNativeTarget "Weibo-Weibo" */;
-			buildPhases = (
-				AC84913D7187F680FAFEBB4F49193718 /* Sources */,
-				A34C9E8D05016981877C776A53F7B348 /* Frameworks */,
-				8CA4507D61B0117E197196433F948A91 /* Resources */,
+				3112A3C0359D10AF405BAD0CC2820BDF /* Sources */,
+				E484CB04A44753ADA7F4389C28F36130 /* Frameworks */,
+				E6CFF2BC2D689A11F88827B5A3091057 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -376,16 +358,34 @@
 			);
 			name = "Weibo-Weibo";
 			productName = "Weibo-Weibo";
-			productReference = 3F82D71E2E645EF3B0E883AA0FCEAB48 /* Weibo.bundle */;
+			productReference = B0B1F0CB66D257BAD8BC2071D729C18D /* Weibo.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		DD02EE19FCA14F1535AF984F4C65BA20 /* YHJQRCode */ = {
+		7425872ABBBFF55BC0F6F41182512146 /* Pods-QRCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC6FB1E5E32AB8C63B9C390A410FF5F5 /* Build configuration list for PBXNativeTarget "YHJQRCode" */;
+			buildConfigurationList = 6DB0C8142FF4EC22479C6F72CEEA9F2D /* Build configuration list for PBXNativeTarget "Pods-QRCode" */;
 			buildPhases = (
-				2F3CCE4CC931C8DF7F9E8E476D64C07B /* Sources */,
-				C7B4CF310D0A64AEF9DA0CF000BE8388 /* Frameworks */,
-				D1C8BA3B5BF7D9CEECC6B5B3675A4CB1 /* Headers */,
+				94F6641F06B8B8A00E7E55D0FE9D28E1 /* Sources */,
+				6F0B23866126A7C92A0F4B7EB40D2179 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61032F9B76B67716DB46DDA08D02BAC /* PBXTargetDependency */,
+				0F43C1B27D7FCCDC83549BD74F389185 /* PBXTargetDependency */,
+			);
+			name = "Pods-QRCode";
+			productName = "Pods-QRCode";
+			productReference = 09F87D4B2AB448ECA11BA71EB896AC43 /* libPods-QRCode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A91A9420F018A241E2C5BFA4AF6F79A8 /* YHJQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D16BD58D35253B79E61570792E22D2A /* Build configuration list for PBXNativeTarget "YHJQRCode" */;
+			buildPhases = (
+				5D23EAAD4C258A9AA991653DF7886592 /* Sources */,
+				BBC361DB1D396AD27D0FF8C5F9A1B4CC /* Frameworks */,
+				0DB617A11E845E9E34E91DC712D3AA08 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -393,7 +393,7 @@
 			);
 			name = YHJQRCode;
 			productName = YHJQRCode;
-			productReference = 70ADA357579B9024EEE3BFE924E15920 /* libYHJQRCode.a */;
+			productReference = C2C772C9EF12EF4C00DB0FFFA8045D5C /* libYHJQRCode.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -413,90 +413,98 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 38E3C84CFC0AD9903FDB3212F9478CD0 /* Products */;
+			productRefGroup = D5534730E361647B9E403D5DE20202BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B51219889FCEF5487CF758ABC7974113 /* Pods-KKQRCode */,
-				D6C40EFC7C51B1B8371A908B5525BBAB /* Weibo-Weibo */,
-				DD02EE19FCA14F1535AF984F4C65BA20 /* YHJQRCode */,
+				7425872ABBBFF55BC0F6F41182512146 /* Pods-QRCode */,
+				382A1FBB3E0FF82F1A67ABD4578F1278 /* Weibo-Weibo */,
+				A91A9420F018A241E2C5BFA4AF6F79A8 /* YHJQRCode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8CA4507D61B0117E197196433F948A91 /* Resources */ = {
+		E6CFF2BC2D689A11F88827B5A3091057 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD5EE1F653C195B1B88251682947E3E /* WeiboSDK.bundle in Resources */,
+				E4552E8990A614A5F0FF55AF877838DA /* WeiboSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F27C7755E83E8066B9C7A44F34393FC /* Sources */ = {
+		3112A3C0359D10AF405BAD0CC2820BDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EF543328ABFC2BB46C43EC4136E4997 /* Pods-KKQRCode-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F3CCE4CC931C8DF7F9E8E476D64C07B /* Sources */ = {
+		5D23EAAD4C258A9AA991653DF7886592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E2BBC64BA4BE5E36B62B0E861BEF936 /* QRCodeScanningVC.m in Sources */,
-				CBE5C24000A80467A7A47A8AB6DC2FCC /* RSAUtil.m in Sources */,
-				B003590A8B7CCB903E3F3F84DE9300D8 /* UIImage+SGHelper.m in Sources */,
-				BA36E04B9C5FA5F34D0D012F98359176 /* YHJQRCode-dummy.m in Sources */,
-				258AE8D7442D2E10165CD9CFD22F0F24 /* YHJQRCodeConst.m in Sources */,
-				BB4881C4518392A119BD98C516535258 /* YHJQRCodeScanningVC.m in Sources */,
-				B87210788C475E9EFDDC26FFC9734696 /* YHJQRCodeScanningView.m in Sources */,
-				0CD5A4F4568B04E982E96B4048F6DAD4 /* YHJQRCodeTool.m in Sources */,
+				288EC5DAE601C1565E65C83E3F15F130 /* QRCodeScanningVC.m in Sources */,
+				2A94580BF5D4612289EEC3AE927E4457 /* RSAUtil.m in Sources */,
+				434CC2149E2DFD3DF1A7A7C90ED48A29 /* UIImage+SGHelper.m in Sources */,
+				149325F974E2342BCF23E9E78524790A /* YHJQRCode-dummy.m in Sources */,
+				2D4905C980F744A5BEE1108911BF1A72 /* YHJQRCodeConst.m in Sources */,
+				8C02F6F3EEB977E54260D6FE0197CA63 /* YHJQRCodeScanningVC.m in Sources */,
+				D55B5AE6E6884769B5B32F48FF9E9D03 /* YHJQRCodeScanningView.m in Sources */,
+				FBE82712B64B26D29DF3B24DE1D68EE0 /* YHJQRCodeTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC84913D7187F680FAFEBB4F49193718 /* Sources */ = {
+		94F6641F06B8B8A00E7E55D0FE9D28E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9E5377304EBB35A4E7DF83B01A82CA /* Pods-QRCode-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		714450444B1DA88C4C78CAF43B3C40F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Weibo-Weibo";
-			target = D6C40EFC7C51B1B8371A908B5525BBAB /* Weibo-Weibo */;
-			targetProxy = F6B0AD492BF36403872087E8134A03A8 /* PBXContainerItemProxy */;
-		};
-		E24600422B1F70ECEC862CE36519205A /* PBXTargetDependency */ = {
+		0F43C1B27D7FCCDC83549BD74F389185 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YHJQRCode;
-			target = DD02EE19FCA14F1535AF984F4C65BA20 /* YHJQRCode */;
-			targetProxy = 5C09F26B89B91B70BEFBE3E19D3B9B8C /* PBXContainerItemProxy */;
+			target = A91A9420F018A241E2C5BFA4AF6F79A8 /* YHJQRCode */;
+			targetProxy = 4A492A58033353E59D06E05B4448051E /* PBXContainerItemProxy */;
+		};
+		C61032F9B76B67716DB46DDA08D02BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Weibo-Weibo";
+			target = 382A1FBB3E0FF82F1A67ABD4578F1278 /* Weibo-Weibo */;
+			targetProxy = 44312AC2C279F34F0C2F3D9C4B91B667 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10CC2134E068972E92A5A8F0E6C0E704 /* Release */ = {
+		12AEBADC97DB3054FF6A01675F65679A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B1A048C067E13159E7CAF14D996C44 /* YHJQRCode.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Weibo";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Weibo/ResourceBundle-Weibo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = Weibo;
+				GCC_PREFIX_HEADER = "Target Support Files/YHJQRCode/YHJQRCode-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 			};
 			name = Release;
 		};
@@ -549,29 +557,6 @@
 			};
 			name = Debug;
 		};
-		1EB691C7E86EC637F24745A8FD24608B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0BE4DCF0FDC699E2A55290027E4C815 /* Pods-KKQRCode.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -616,19 +601,19 @@
 			};
 			name = Release;
 		};
-		CE7987D580443A7FBA0680384143DDBF /* Release */ = {
+		4C47AF4C092843373C68EC17CF9FFB83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4B1A048C067E13159E7CAF14D996C44 /* YHJQRCode.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/YHJQRCode/YHJQRCode-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -638,11 +623,27 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 			};
-			name = Release;
+			name = Debug;
 		};
-		DC3DE68D547084774B606DDD0BE09F8C /* Debug */ = {
+		90EA9B94F7076EE77B5B41E0982C4B5A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCE289961913324A3190A34DC11B33EA /* Pods-KKQRCode.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Weibo";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Weibo/ResourceBundle-Weibo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = Weibo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9882D0AB674BD8547C1000FEFF66FEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746EA9C3BF259ED258ED4114D1896CEA /* Pods-QRCode.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -663,31 +664,30 @@
 			};
 			name = Debug;
 		};
-		FC06425E8CBCFEE01B4EA2AE76DF017B /* Debug */ = {
+		9975DBDA0E46A32DDF89CFB6EDDE9AEF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B1A048C067E13159E7CAF14D996C44 /* YHJQRCode.xcconfig */;
+			baseConfigurationReference = CEA6AF61A43B3AD124B07FC856BF1417 /* Pods-QRCode.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/YHJQRCode/YHJQRCode-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 			};
-			name = Debug;
+			name = Release;
 		};
-		FEC02ECF93605A331CF7A23E6D2EE7BD /* Debug */ = {
+		CEE138333119E17F8B6C3D48AF006C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Weibo";
@@ -701,7 +701,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -715,29 +715,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		355D7B351352BEA90C4397AD87DF8F8A /* Build configuration list for PBXNativeTarget "Weibo-Weibo" */ = {
+		6DB0C8142FF4EC22479C6F72CEEA9F2D /* Build configuration list for PBXNativeTarget "Pods-QRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEC02ECF93605A331CF7A23E6D2EE7BD /* Debug */,
-				10CC2134E068972E92A5A8F0E6C0E704 /* Release */,
+				9882D0AB674BD8547C1000FEFF66FEF8 /* Debug */,
+				9975DBDA0E46A32DDF89CFB6EDDE9AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53A1CF7729E9C2487DA90D5939480BD0 /* Build configuration list for PBXNativeTarget "Pods-KKQRCode" */ = {
+		9D16BD58D35253B79E61570792E22D2A /* Build configuration list for PBXNativeTarget "YHJQRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC3DE68D547084774B606DDD0BE09F8C /* Debug */,
-				1EB691C7E86EC637F24745A8FD24608B /* Release */,
+				4C47AF4C092843373C68EC17CF9FFB83 /* Debug */,
+				12AEBADC97DB3054FF6A01675F65679A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC6FB1E5E32AB8C63B9C390A410FF5F5 /* Build configuration list for PBXNativeTarget "YHJQRCode" */ = {
+		F158A2D575C6FA2D1250C48E531E20A4 /* Build configuration list for PBXNativeTarget "Weibo-Weibo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC06425E8CBCFEE01B4EA2AE76DF017B /* Debug */,
-				CE7987D580443A7FBA0680384143DDBF /* Release */,
+				90EA9B94F7076EE77B5B41E0982C4B5A /* Debug */,
+				CEE138333119E17F8B6C3D48AF006C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

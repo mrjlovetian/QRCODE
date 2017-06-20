@@ -8,7 +8,7 @@ pod 'Weibo', '~> 2.4.2'
 pod 'YHJQRCode', '~> 0.2.0.1'
 
 end
-target 'KKQRCode' do
+target 'QRCode' do
   pods
 end
-xcodeproj 'KKQRCode.xcodeproj'
+xcodeproj 'QRCode.xcodeproj'

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7EF8A283C908D5743D7F4F3 /* libPods-QRCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9229E3A4E4DC0FDFCDA6BF07 /* libPods-QRCode.a */; };
 		C284BE7A1EF8A5CF0024DF5D /* share_kber@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C284BE781EF8A5CF0024DF5D /* share_kber@2x.png */; };
 		C284BE7B1EF8A5CF0024DF5D /* share_kber@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C284BE791EF8A5CF0024DF5D /* share_kber@3x.png */; };
 		C2A0758C1EEEC4D30095B568 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A0758A1EEEC4D30095B568 /* ShareViewController.m */; };
@@ -25,13 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9229E3A4E4DC0FDFCDA6BF07 /* libPods-QRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B2E2C10A7D84E1DDC35DAC /* Pods-KKQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKQRCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode.release.xcconfig"; sourceTree = "<group>"; };
+		C1DAEEAF09B509F048C0D975 /* Pods-QRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRCode/Pods-QRCode.release.xcconfig"; sourceTree = "<group>"; };
 		C284BE781EF8A5CF0024DF5D /* share_kber@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@2x.png"; sourceTree = "<group>"; };
 		C284BE791EF8A5CF0024DF5D /* share_kber@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@3x.png"; sourceTree = "<group>"; };
 		C2A075891EEEC4D30095B568 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ShareViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		C2A0758A1EEEC4D30095B568 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ShareViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C2A0758B1EEEC4D30095B568 /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
-		C2AD435D1EE53FBC00B231BE /* KKQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AD435D1EE53FBC00B231BE /* QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AD43611EE53FBC00B231BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C2AD43631EE53FBC00B231BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		C2AD43641EE53FBC00B231BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -47,6 +50,7 @@
 		C2AD438C1EE54A6500B231BE /* XIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = XIBViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		C2AD438D1EE54A6500B231BE /* XIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = XIBViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C2AD438E1EE54A6500B231BE /* XIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
+		E163BB5F153D6A99FBE488C3 /* Pods-QRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRCode/Pods-QRCode.debug.xcconfig"; sourceTree = "<group>"; };
 		E9519F0E1650E5CBE7225213 /* libPods-KKQRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKQRCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F888D55AB8DB9D460FFB6DD9 /* Pods-KKQRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKQRCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3FB05B526E746D548783A0 /* libPods-KKQRCode.a in Frameworks */,
+				A7EF8A283C908D5743D7F4F3 /* libPods-QRCode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				E9519F0E1650E5CBE7225213 /* libPods-KKQRCode.a */,
+				9229E3A4E4DC0FDFCDA6BF07 /* libPods-QRCode.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +82,8 @@
 			children = (
 				F888D55AB8DB9D460FFB6DD9 /* Pods-KKQRCode.debug.xcconfig */,
 				96B2E2C10A7D84E1DDC35DAC /* Pods-KKQRCode.release.xcconfig */,
+				E163BB5F153D6A99FBE488C3 /* Pods-QRCode.debug.xcconfig */,
+				C1DAEEAF09B509F048C0D975 /* Pods-QRCode.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -83,7 +91,7 @@
 		C2AD43541EE53FBC00B231BE = {
 			isa = PBXGroup;
 			children = (
-				C2AD435F1EE53FBC00B231BE /* KKQRCode */,
+				C2AD435F1EE53FBC00B231BE /* QRCode */,
 				C2AD435E1EE53FBC00B231BE /* Products */,
 				A2365C66B710FFD158F67A6F /* Pods */,
 				55FC067D823D8C882579FA1C /* Frameworks */,
@@ -93,12 +101,12 @@
 		C2AD435E1EE53FBC00B231BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2AD435D1EE53FBC00B231BE /* KKQRCode.app */,
+				C2AD435D1EE53FBC00B231BE /* QRCode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2AD435F1EE53FBC00B231BE /* KKQRCode */ = {
+		C2AD435F1EE53FBC00B231BE /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
 				C2AD43631EE53FBC00B231BE /* AppDelegate.h */,
@@ -122,6 +130,7 @@
 				C2AD43711EE53FBC00B231BE /* Info.plist */,
 				C2AD43601EE53FBC00B231BE /* Supporting Files */,
 			);
+			name = QRCode;
 			path = KKQRCode;
 			sourceTree = "<group>";
 		};
@@ -136,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2AD435C1EE53FBC00B231BE /* KKQRCode */ = {
+		C2AD435C1EE53FBC00B231BE /* QRCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2AD43741EE53FBC00B231BE /* Build configuration list for PBXNativeTarget "KKQRCode" */;
+			buildConfigurationList = C2AD43741EE53FBC00B231BE /* Build configuration list for PBXNativeTarget "QRCode" */;
 			buildPhases = (
 				FC3A548E6D3F2C2AF9B630FA /* [CP] Check Pods Manifest.lock */,
 				C2AD43591EE53FBC00B231BE /* Sources */,
@@ -151,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = KKQRCode;
+			name = QRCode;
 			productName = KKQRCode;
-			productReference = C2AD435D1EE53FBC00B231BE /* KKQRCode.app */;
+			productReference = C2AD435D1EE53FBC00B231BE /* QRCode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C2AD43581EE53FBC00B231BE /* Build configuration list for PBXProject "KKQRCode" */;
+			buildConfigurationList = C2AD43581EE53FBC00B231BE /* Build configuration list for PBXProject "QRCode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -185,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2AD435C1EE53FBC00B231BE /* KKQRCode */,
+				C2AD435C1EE53FBC00B231BE /* QRCode */,
 			);
 		};
 /* End PBXProject section */
@@ -221,7 +230,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRCode/Pods-QRCode-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D82959728D92564392EA3F87 /* [CP] Copy Pods Resources */ = {
@@ -236,7 +245,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRCode/Pods-QRCode-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC3A548E6D3F2C2AF9B630FA /* [CP] Check Pods Manifest.lock */ = {
@@ -378,7 +387,7 @@
 		};
 		C2AD43751EE53FBC00B231BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F888D55AB8DB9D460FFB6DD9 /* Pods-KKQRCode.debug.xcconfig */;
+			baseConfigurationReference = E163BB5F153D6A99FBE488C3 /* Pods-QRCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: 洪江 余 (SUMF3H4Y36)";
@@ -401,7 +410,7 @@
 		};
 		C2AD43761EE53FBC00B231BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B2E2C10A7D84E1DDC35DAC /* Pods-KKQRCode.release.xcconfig */;
+			baseConfigurationReference = C1DAEEAF09B509F048C0D975 /* Pods-QRCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: 洪江 余 (SUMF3H4Y36)";
@@ -424,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2AD43581EE53FBC00B231BE /* Build configuration list for PBXProject "KKQRCode" */ = {
+		C2AD43581EE53FBC00B231BE /* Build configuration list for PBXProject "QRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2AD43721EE53FBC00B231BE /* Debug */,
@@ -433,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2AD43741EE53FBC00B231BE /* Build configuration list for PBXNativeTarget "KKQRCode" */ = {
+		C2AD43741EE53FBC00B231BE /* Build configuration list for PBXNativeTarget "QRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2AD43751EE53FBC00B231BE /* Debug */,
