@@ -22,12 +22,10 @@
 		C2AD438B1EE5499E00B231BE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AD43891EE5499E00B231BE /* MainViewController.xib */; };
 		C2AD438F1EE54A6500B231BE /* XIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD438D1EE54A6500B231BE /* XIBViewController.m */; };
 		C2AD43901EE54A6500B231BE /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AD438E1EE54A6500B231BE /* XIBViewController.xib */; };
-		DF3FB05B526E746D548783A0 /* libPods-KKQRCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9519F0E1650E5CBE7225213 /* libPods-KKQRCode.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9229E3A4E4DC0FDFCDA6BF07 /* libPods-QRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96B2E2C10A7D84E1DDC35DAC /* Pods-KKQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKQRCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode.release.xcconfig"; sourceTree = "<group>"; };
 		C1DAEEAF09B509F048C0D975 /* Pods-QRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRCode/Pods-QRCode.release.xcconfig"; sourceTree = "<group>"; };
 		C284BE781EF8A5CF0024DF5D /* share_kber@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@2x.png"; sourceTree = "<group>"; };
 		C284BE791EF8A5CF0024DF5D /* share_kber@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_kber@3x.png"; sourceTree = "<group>"; };
@@ -52,7 +50,6 @@
 		C2AD438E1EE54A6500B231BE /* XIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
 		E163BB5F153D6A99FBE488C3 /* Pods-QRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRCode/Pods-QRCode.debug.xcconfig"; sourceTree = "<group>"; };
 		E9519F0E1650E5CBE7225213 /* libPods-KKQRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKQRCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F888D55AB8DB9D460FFB6DD9 /* Pods-KKQRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKQRCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKQRCode/Pods-KKQRCode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3FB05B526E746D548783A0 /* libPods-KKQRCode.a in Frameworks */,
 				A7EF8A283C908D5743D7F4F3 /* libPods-QRCode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,8 +76,6 @@
 		A2365C66B710FFD158F67A6F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F888D55AB8DB9D460FFB6DD9 /* Pods-KKQRCode.debug.xcconfig */,
-				96B2E2C10A7D84E1DDC35DAC /* Pods-KKQRCode.release.xcconfig */,
 				E163BB5F153D6A99FBE488C3 /* Pods-QRCode.debug.xcconfig */,
 				C1DAEEAF09B509F048C0D975 /* Pods-QRCode.release.xcconfig */,
 			);
@@ -176,8 +170,7 @@
 				TargetAttributes = {
 					C2AD435C1EE53FBC00B231BE = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 58VA3BYFVV;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -260,7 +253,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

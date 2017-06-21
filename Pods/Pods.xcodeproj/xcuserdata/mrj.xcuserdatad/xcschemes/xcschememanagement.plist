@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>OC-Category.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-QRCode.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Weibo-Weibo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YHJQRCode.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>05EDCA883CB099FE6E3EB6E214C12B08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0629B8A0FD19A1A0ECB5637D45C6A2D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09CA83C77F45193398D7C987F546D336</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>93C874CD23B477E46EB5B787BC9BC5F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
