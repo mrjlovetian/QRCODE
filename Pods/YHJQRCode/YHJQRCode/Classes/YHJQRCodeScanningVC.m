@@ -12,7 +12,7 @@
 #import "YHJQRCodeScanningView.h"
 #import "YHJQRCodeConst.h"
 #import "UIImage+SGHelper.h"
-#import "RSAUtil.h"
+#import "NSBundle+YHJQRCode.h"
 
 @interface YHJQRCodeScanningVC () <AVCaptureMetadataOutputObjectsDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 /// 会话对象
@@ -51,8 +51,8 @@
 }
 
 - (void)setupNavigationBar {
-    self.navigationItem.title = @"扫一扫";
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"相册" style:(UIBarButtonItemStyleDone) target:self action:@selector(rightBarButtonItenAction)];
+    self.navigationItem.title = [NSBundle YHJQRCodeLocalizedStringForKey:YHJQRCodeChongqingjzb];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:[NSBundle YHJQRCodeLocalizedStringForKey:YHJQRCodeAlbum] style:(UIBarButtonItemStyleDone) target:self action:@selector(rightBarButtonItenAction)];
 }
 
 - (YHJQRCodeScanningView *)scanningView {
@@ -107,16 +107,16 @@
             [self presentViewController:imagePicker animated:YES completion:nil];
 
         } else if (status == PHAuthorizationStatusDenied) { // 用户拒绝当前应用访问相册
-            UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@"提示" message:@"请去-> [设置 - 隐私 - 照片] 打开访问开关" preferredStyle:(UIAlertControllerStyleAlert)];
-            UIAlertAction *alertA = [UIAlertAction actionWithTitle:@"确定" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction * _Nonnull action) {
+            UIAlertController *alertC = [UIAlertController alertControllerWithTitle:[NSBundle YHJQRCodeLocalizedStringForKey:YHJQRCodeMessage] message:[NSBundle YHJQRCodeLocalizedStringForKey:YHJQRCodeTeachOpen] preferredStyle:(UIAlertControllerStyleAlert)];
+            UIAlertAction *alertA = [UIAlertAction actionWithTitle:[NSBundle YHJQRCodeLocalizedStringForKey:YHJQRCodeSure] style:(UIAlertActionStyleDefault) handler:^(UIAlertAction * _Nonnull action) {
                 
             }];
             
             [alertC addAction:alertA];
             [self presentViewController:alertC animated:YES completion:nil];
         } else if (status == PHAuthorizationStatusRestricted) {
-            UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"由于系统原因, 无法访问相册" preferredStyle:(UIAlertControllerStyleAlert)];
-            UIAlertAction *alertA = [UIAlertAction actionWithTitle:@"确定" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction * _Nonnull action) {
+            UIAlertController *alertC = [UIAlertController alertControllerWithTitle:[NSBundle YHJQRCodeLocalizedStringForKey:YHJQRCodeLikeMessage] message:[NSBundle YHJQRCodeLocalizedStringForKey:YHJQRCodeDefinePhoto] preferredStyle:(UIAlertControllerStyleAlert)];
+            UIAlertAction *alertA = [UIAlertAction actionWithTitle:[NSBundle YHJQRCodeLocalizedStringForKey:YHJQRCodeSure] style:(UIAlertActionStyleDefault) handler:^(UIAlertAction * _Nonnull action) {
                 
             }];
             
@@ -152,13 +152,13 @@
     for (int index = 0; index < [features count]; index ++) {
         CIQRCodeFeature *feature = [features objectAtIndex:index];
         NSString *scannedResult = feature.messageString;
-        NSString *resultStr = [RSAUtil decryptString:scannedResult privateKey:YHJRSA_Privite_key];
+//        NSString *resultStr = [RSAUtil decryptString:scannedResult privateKey:YHJRSA_Privite_key];
         
-        id result = [self dictionaryWithJsonString:resultStr];
+//        id result = [self dictionaryWithJsonString:resultStr];
         
         //YHJQRCodeLog(@"scannedResult - - %@", scannedResult);
         // 在此发通知，告诉子类二维码数据
-        [YHJQRCodeNotificationCenter postNotificationName:YHJQRCodeInformationFromeAibum object:result];
+        [YHJQRCodeNotificationCenter postNotificationName:YHJQRCodeInformationFromeAibum object:scannedResult];
     }
 }
 
@@ -212,7 +212,7 @@
 #pragma mark - - - AVCaptureMetadataOutputObjectsDelegate
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection {
     // 0、扫描成功之后的提示音
-//    [self YHJ_playSoundEffect:@"sound" ofType:@"caf"];
+    [self YHJ_playSoundEffect:@"sound" ofType:@"caf"];
     
     // 1、如果扫描完成，停止会话
     [self.session stopRunning];
@@ -225,19 +225,19 @@
         AVMetadataMachineReadableCodeObject *obj = metadataObjects[0];
         
         NSString *scannedResult = obj.stringValue;
-        NSString *resultStr = [RSAUtil decryptString:scannedResult privateKey:YHJRSA_Privite_key];
-        
-        id result = [self dictionaryWithJsonString:resultStr];
+//        NSString *resultStr = [RSAUtil decryptString:scannedResult privateKey:YHJRSA_Privite_key];
+//        
+//        id result = [self dictionaryWithJsonString:resultStr];
         
         // 在此发通知，告诉子类二维码数据
-        [YHJQRCodeNotificationCenter postNotificationName:YHJQRCodeInformationFromeScanning object:result];
+        [YHJQRCodeNotificationCenter postNotificationName:YHJQRCodeInformationFromeScanning object:scannedResult];
     }
 }
 
 /** 播放音效文件 */
 - (void)YHJ_playSoundEffect:(NSString *)name ofType:(NSString *)type {
     // 获取音效
-    NSString *audioFile = [[NSBundle mainBundle] pathForResource:name ofType:type];
+    NSString *audioFile = [[NSBundle mainBundle] pathForResource:name ofType:type inDirectory:@"YHJQRCode.bundle"];
     NSURL *fileUrl = [NSURL fileURLWithPath:audioFile];
     
     // 1、获得系统声音ID

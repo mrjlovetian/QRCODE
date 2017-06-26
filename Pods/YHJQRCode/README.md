@@ -22,7 +22,15 @@ pod "YHJQRCode"
 
 ## Author
 
-mrjyuhongjiang, mrjlovetian@gmail.com
+余洪江, mrjlovetian@gmail.com
+
+## Example image
+
+##二维码
+![Alt Text](https://github.com/mrjlovetian/YHJARCode/blob/master/Example/YHJQRCode/IMG_0129.PNG)
+
+##扫码
+![Alt Text](https://github.com/mrjlovetian/YHJARCode/blob/master/Example/YHJQRCode/IMG_0130.PNG)
 
 ## License
 
