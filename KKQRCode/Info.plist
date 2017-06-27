@@ -66,6 +66,10 @@
 	<string>cameraDesciption</string>
 	<key>NSContactsUsageDescription</key>
 	<string>contactsDesciption</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>总是需要您的位置</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>需要访问您的位置</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>microphoneDesciption</string>
 	<key>NSPhotoLibraryUsageDescription</key>

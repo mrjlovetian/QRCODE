@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>INTULocationManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-QRCode.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>382A1FBB3E0FF82F1A67ABD4578F1278</key>
+		<key>580C4989D0CBD86F26C66310C060C28E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7425872ABBBFF55BC0F6F41182512146</key>
+		<key>C1B1675904CD6E10B855093337E39C8B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A91A9420F018A241E2C5BFA4AF6F79A8</key>
+		<key>C97F06E3AC7C7037CBB4165D989ABB9F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCFA598F16F03E859E1F5D5FFFC0D0B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,4 +1,5 @@
 PODS:
+  - INTULocationManager (4.2.0)
   - Tencent_SDK (3.1.3)
   - WechatOpenSDK (1.7.7)
   - Weibo (2.4.2)
@@ -7,17 +8,19 @@ PODS:
   - YHJQRCode/Code (0.2.0.7)
 
 DEPENDENCIES:
+  - INTULocationManager
   - Tencent_SDK (~> 3.1.3)
   - WechatOpenSDK
   - Weibo (~> 2.4.2)
   - YHJQRCode (~> 0.2.0.7)
 
 SPEC CHECKSUMS:
+  INTULocationManager: 73f8254b3d05c897c56bb13c190e5b7c648c0998
   Tencent_SDK: 5e7116d42deed9af7b710f3d7995cc81b01a36e9
   WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
   Weibo: ed569ffed6eb043a159ac3b01dc5122b4e1fd77a
   YHJQRCode: de7b2924724f34aadf5bc19c64f9e0accda2148a
 
-PODFILE CHECKSUM: 8a9fc09a83c69345736898bcc55f982a91afa7f2
+PODFILE CHECKSUM: c1f86d2d5184aefd7637dff065ead54dd5f2c519
 
-COCOAPODS: 1.3.0.beta.1
+COCOAPODS: 1.2.1
