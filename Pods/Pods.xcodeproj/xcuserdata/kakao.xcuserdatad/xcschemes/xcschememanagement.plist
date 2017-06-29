@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>OC-Category.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-QRCode.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>09CA83C77F45193398D7C987F546D336</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0D501553A9E7C517C9496DF056244F26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>580C4989D0CBD86F26C66310C060C28E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C1B1675904CD6E10B855093337E39C8B</key>
+		<key>92C88D973A8A7A682DE8B330B401C66E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C97F06E3AC7C7037CBB4165D989ABB9F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FCFA598F16F03E859E1F5D5FFFC0D0B8</key>
+		<key>E496C96896EB322FFD212FCC71AF3F1D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

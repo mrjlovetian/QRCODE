@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C1B1675904CD6E10B855093337E39C8B'
+               BlueprintIdentifier = '92C88D973A8A7A682DE8B330B401C66E'
                BlueprintName = 'Weibo-Weibo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Weibo.bundle'>
