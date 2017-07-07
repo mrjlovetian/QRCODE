@@ -1,0 +1,1 @@
+../../../../BaiduMap-iOS-SDK/BaiduMapAPI/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h

@@ -1,0 +1,1 @@
+../../../../BaiduMap-iOS-SDK/BaiduMapAPI/BaiduMapAPI_Utils.framework/Headers/BMKFavPoiManager.h
