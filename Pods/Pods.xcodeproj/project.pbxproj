@@ -532,9 +532,11 @@
 		057B11DB188C63A9EDF7B6A93D1E1029 /* NSString+Pinyin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Pinyin.h"; path = "OC-Category/Classes/Foundation/NSString/NSString+Pinyin.h"; sourceTree = "<group>"; };
 		057D4B879F8119EF751B0E58AEBCD79B /* UIControl+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Block.m"; path = "OC-Category/Classes/UIKit/UIControl/UIControl+Block.m"; sourceTree = "<group>"; };
 		06391E5E7F3B91E4E85D16D12F0B7F85 /* UIColor+Random.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Random.m"; path = "OC-Category/Classes/UIKit/UIColor/UIColor+Random.m"; sourceTree = "<group>"; };
+		069F950756DD07C9DDFB27AB4A1DE8E1 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.7.8/WechatAuthSDK.h; sourceTree = "<group>"; };
 		06A02C62C28A1025A841297BC57CD665 /* UIImage+Merge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Merge.m"; path = "OC-Category/Classes/UIKit/UIImage/UIImage+Merge.m"; sourceTree = "<group>"; };
 		06C283EF81C60158623E744264A838D8 /* NSObject+EasyCopy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+EasyCopy.h"; path = "OC-Category/Classes/Foundation/NSObject/NSObject+EasyCopy.h"; sourceTree = "<group>"; };
 		079A1AA7858B887E73B5CAA609D10D4E /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "OC-Category/Classes/UIKit/UIView/UIView+Toast.h"; sourceTree = "<group>"; };
+		07BC227DE9CC6B9604E5A0861196C5B8 /* YHJQRCode.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = YHJQRCode.bundle; sourceTree = "<group>"; };
 		082DA1B767149C164747F0F2BACE03F7 /* NSBundle+YHJQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+YHJQRCode.h"; path = "YHJQRCode/Classes/NSBundle+YHJQRCode.h"; sourceTree = "<group>"; };
 		084F4D8D0CB75C042EB0972DA89C75DF /* UIFont+CustomLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+CustomLoader.h"; path = "OC-Category/Classes/UIKit/UIFont/UIFont+CustomLoader.h"; sourceTree = "<group>"; };
 		08735AED12E5D4140A080A71C3B719C1 /* UIBezierPath+BasicShapes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+BasicShapes.m"; path = "OC-Category/Classes/UIKit/UIBezierPath/UIBezierPath+BasicShapes.m"; sourceTree = "<group>"; };
@@ -572,7 +574,6 @@
 		18870A04791F57D90C0F5983BF4CCBF3 /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "OC-Category/Classes/Foundation/NSData/NSData+Base64.h"; sourceTree = "<group>"; };
 		18E74ED341D4ECD0EC025CA5D3E60E28 /* UIBezierPath+Symbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+Symbol.h"; path = "OC-Category/Classes/UIKit/UIBezierPath/UIBezierPath+Symbol.h"; sourceTree = "<group>"; };
 		1926A1466EA7447B5E7256BDB7B345D7 /* RSAUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSAUtil.m; path = YHJQRCode/Classes/RSAUtil.m; sourceTree = "<group>"; };
-		19E01BE0A8E96A8FB192EDEA4E8A8138 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.7.7/WXApi.h; sourceTree = "<group>"; };
 		19ECAA52E1E8DE9B89EECD2BF4E06074 /* NSString+NormalRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+NormalRegex.m"; path = "OC-Category/Classes/Foundation/NSString/NSString+NormalRegex.m"; sourceTree = "<group>"; };
 		1B071231121DC56D99CA2474CDB37C58 /* NSManagedObjectContext+ObjectClear.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+ObjectClear.m"; path = "OC-Category/Classes/CoreData/NSManagedObjectContext/NSManagedObjectContext+ObjectClear.m"; sourceTree = "<group>"; };
 		1BA5A010B2B477EF99CD8FDEDF070794 /* UIImage+Resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "OC-Category/Classes/UIKit/UIImage/UIImage+Resize.h"; sourceTree = "<group>"; };
@@ -615,7 +616,6 @@
 		2C3A6A1E03E4433ACF0529C996ACDEC1 /* CoreLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreLocation.h; path = "OC-Category/Classes/CoreLocation.h"; sourceTree = "<group>"; };
 		2C88CC177CB854DAC5B9857D3202DBE7 /* UIViewController+RecursiveDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RecursiveDescription.h"; path = "OC-Category/Classes/UIKit/UIViewController/UIViewController+RecursiveDescription.h"; sourceTree = "<group>"; };
 		2CEA07602B5531BD4CD17D5DBF33023F /* NSString+Score.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Score.h"; path = "OC-Category/Classes/Foundation/NSString/NSString+Score.h"; sourceTree = "<group>"; };
-		2D15978150572F014F8A785860B23E5A /* YHJQRCode.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YHJQRCode.bundle; path = YHJQRCode/Classes/YHJQRCode.bundle; sourceTree = "<group>"; };
 		2D2814D18DE82013ABE5330A9C081297 /* NSFileManager+Paths.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+Paths.m"; path = "OC-Category/Classes/Foundation/NSFileManager/NSFileManager+Paths.m"; sourceTree = "<group>"; };
 		2D7644E816FCF0F1BF4FAF916DA02FD7 /* UIApplication+Permissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Permissions.h"; path = "OC-Category/Classes/UIKit/UIApplication/UIApplication+Permissions.h"; sourceTree = "<group>"; };
 		2D9484CBA5E06E4F37C3B8E885A72F99 /* NSBundle+AppIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AppIcon.m"; path = "OC-Category/Classes/Foundation/NSBundle/NSBundle+AppIcon.m"; sourceTree = "<group>"; };
@@ -666,6 +666,7 @@
 		4145C08F3C21F1FDE2B94727213568B8 /* NSException+Trace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+Trace.m"; path = "OC-Category/Classes/Foundation/NSException/NSException+Trace.m"; sourceTree = "<group>"; };
 		42163286981650529C1AB15CE07B022E /* UIViewController+StoreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+StoreKit.h"; path = "OC-Category/Classes/UIKit/UIViewController/UIViewController+StoreKit.h"; sourceTree = "<group>"; };
 		42D558EDCCF45E546D4427C2ED5DD4A0 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapAPI/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		4350FAF31F185BC9AB6D12B0D319CE04 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.7.8/WXApiObject.h; sourceTree = "<group>"; };
 		46D8EAE3ECE92ADF23BCEBE94716BE4A /* NSTimer+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Addition.h"; path = "OC-Category/Classes/Foundation/NSTimer/NSTimer+Addition.h"; sourceTree = "<group>"; };
 		4755A46044D232B572CDA1BCFAD60DFB /* UIControl+ActionBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+ActionBlocks.m"; path = "OC-Category/Classes/UIKit/UIControl/UIControl+ActionBlocks.m"; sourceTree = "<group>"; };
 		47E1836FC342165626113BD28449D7BA /* UIImage+Blur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Blur.m"; path = "OC-Category/Classes/UIKit/UIImage/UIImage+Blur.m"; sourceTree = "<group>"; };
@@ -802,7 +803,6 @@
 		88A7930C7BDF49984FBEE80F097142F2 /* NSDictionary+XML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+XML.m"; path = "OC-Category/Classes/Foundation/NSDictionary/NSDictionary+XML.m"; sourceTree = "<group>"; };
 		895B4A9819DBB16A7353BFB0F8CF3E31 /* UIView+Draggable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Draggable.m"; path = "OC-Category/Classes/UIKit/UIView/UIView+Draggable.m"; sourceTree = "<group>"; };
 		8A23E2EB3B5D1544F06844A6D2B041A5 /* UITextField+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Blocks.m"; path = "OC-Category/Classes/UIKit/UITextField/UITextField+Blocks.m"; sourceTree = "<group>"; };
-		8A44DA9744DAA7F77F5D04F3B1864958 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.7.7/libWeChatSDK.a; sourceTree = "<group>"; };
 		8A459A645705F3353A2B62F8FF3973E6 /* UIWebView+TS_JavaScriptContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+TS_JavaScriptContext.h"; path = "OC-Category/Classes/UIKit/UIWebView/UIWebView+TS_JavaScriptContext.h"; sourceTree = "<group>"; };
 		8A7224BD8623E8D75445549AABC9338A /* YHJQRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHJQRCode.xcconfig; sourceTree = "<group>"; };
 		8A985A0466A8E6643107D14BAC1E8E8E /* NSNumber+Round.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Round.h"; path = "OC-Category/Classes/Foundation/NSNumber/NSNumber+Round.h"; sourceTree = "<group>"; };
@@ -851,7 +851,6 @@
 		A5E4D1ADEA1848F98697AA0808315EFD /* NSDecimalNumber+CalculatingByString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+CalculatingByString.m"; path = "OC-Category/Classes/Foundation/NSNumber/NSDecimalNumber+CalculatingByString.m"; sourceTree = "<group>"; };
 		A5EAD75A2FF3A46982E1E37ABAFCD8B1 /* UIViewController+DDPopUpViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DDPopUpViewController.m"; path = "OC-Category/Classes/UIKit/UIViewController/UIViewController+DDPopUpViewController.m"; sourceTree = "<group>"; };
 		A7A394EEA2984B6FD6507FC85379CCAB /* NSObject+AppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AppInfo.m"; path = "OC-Category/Classes/Foundation/NSObject/NSObject+AppInfo.m"; sourceTree = "<group>"; };
-		A7A464ADAE72A309D72E6AD244AFEC33 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.7.7/WechatAuthSDK.h; sourceTree = "<group>"; };
 		A93F161222435396E5D8C31A06748FB3 /* NSObject+AddProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AddProperty.m"; path = "OC-Category/Classes/Foundation/NSObject/NSObject+AddProperty.m"; sourceTree = "<group>"; };
 		A95451B582B3C044D8EBBEA34A11ADF0 /* INTULocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INTULocationManager-dummy.m"; sourceTree = "<group>"; };
 		A9EE3EA89A75E3CC937789D817BAAE50 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
@@ -873,6 +872,7 @@
 		B438BF9DFF48BC63FF2E0180C39326B9 /* UIColor+Web.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Web.h"; path = "OC-Category/Classes/UIKit/UIColor/UIColor+Web.h"; sourceTree = "<group>"; };
 		B460198ABF3931563DEBA881C56D2A39 /* NSData+Hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Hash.h"; path = "OC-Category/Classes/Foundation/NSData/NSData+Hash.h"; sourceTree = "<group>"; };
 		B4C11D44554E4745877172611D80F6DB /* NSDate+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extension.h"; path = "OC-Category/Classes/Foundation/NSDate/NSDate+Extension.h"; sourceTree = "<group>"; };
+		B55B1A5DDBBFD7B77BE3559FC6313528 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.7.8/libWeChatSDK.a; sourceTree = "<group>"; };
 		B5642BB96C8E88EDA6C2B0D5E61B2A9F /* NSObject+Runtime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Runtime.m"; path = "OC-Category/Classes/Foundation/NSObject/NSObject+Runtime.m"; sourceTree = "<group>"; };
 		B6711AD753662B1232FCF85E13E4E8C5 /* UIWebView+Load.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+Load.h"; path = "OC-Category/Classes/UIKit/UIWebView/UIWebView+Load.h"; sourceTree = "<group>"; };
 		B70690143520DB4817FA99305D808DD8 /* UITextView+PinchZoom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+PinchZoom.m"; path = "OC-Category/Classes/UIKit/UITextView/UITextView+PinchZoom.m"; sourceTree = "<group>"; };
@@ -914,6 +914,7 @@
 		C9EEFE64CE947AE0A49C4890565AB5C5 /* UIDevice+PasscodeStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+PasscodeStatus.h"; path = "OC-Category/Classes/UIKit/UIDevice/UIDevice+PasscodeStatus.h"; sourceTree = "<group>"; };
 		C9F9D7C5CA3F2B1969C3D3D2B74159D0 /* INTULocationManager+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "INTULocationManager+Internal.h"; path = "LocationManager/INTULocationManager/INTULocationManager+Internal.h"; sourceTree = "<group>"; };
 		CA3EAA0AAEF4D0DE76CD6AEC0D8290CA /* UIButton+MiddleAligning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+MiddleAligning.m"; path = "OC-Category/Classes/UIKit/UIButton/UIButton+MiddleAligning.m"; sourceTree = "<group>"; };
+		CA64590E8E94CBC74ECF0A6A641AFE3F /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.7.8/WXApi.h; sourceTree = "<group>"; };
 		CC1A1610D241BE9956317A1DA40B9786 /* NSArray+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Block.m"; path = "OC-Category/Classes/Foundation/NSArray/NSArray+Block.m"; sourceTree = "<group>"; };
 		CC5EA49FD373232000A55966DD0290CB /* NSString+MIME.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MIME.m"; path = "OC-Category/Classes/Foundation/NSString/NSString+MIME.m"; sourceTree = "<group>"; };
 		CCD400E229F53058A011C7B63EC5A68B /* UIApplication+NetworkActivityIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+NetworkActivityIndicator.m"; path = "OC-Category/Classes/UIKit/UIApplication/UIApplication+NetworkActivityIndicator.m"; sourceTree = "<group>"; };
@@ -994,7 +995,6 @@
 		F155791160838F38CFC6502C9D08FD5C /* NSObject+BlockTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BlockTimer.h"; path = "OC-Category/Classes/Foundation/NSObject/NSObject+BlockTimer.h"; sourceTree = "<group>"; };
 		F217742D03D2D16746F01F111DD3BFFC /* NSFetchRequest+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFetchRequest+Extensions.h"; path = "OC-Category/Classes/CoreData/NSFetchRequest/NSFetchRequest+Extensions.h"; sourceTree = "<group>"; };
 		F30BC2E4505AB6C3817D5E9E93FC7CA8 /* NSDictionary+SafeAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SafeAccess.h"; path = "OC-Category/Classes/Foundation/NSDictionary/NSDictionary+SafeAccess.h"; sourceTree = "<group>"; };
-		F3265DC4578E0866A67A5A5CB8FFE3E6 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.7.7/WXApiObject.h; sourceTree = "<group>"; };
 		F3FD1308E4C2DFACAD7D61D66EF376BF /* UIApplication+ApplicationSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+ApplicationSize.m"; path = "OC-Category/Classes/UIKit/UIApplication/UIApplication+ApplicationSize.m"; sourceTree = "<group>"; };
 		F520F5A7A6A95F7C8F5F1EE40F047CF0 /* UITextView+PlaceHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+PlaceHolder.m"; path = "OC-Category/Classes/UIKit/UITextView/UITextView+PlaceHolder.m"; sourceTree = "<group>"; };
 		F579B434C6E27DA0DC3BD7AE95C5C3AB /* QRCodeScanningVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCodeScanningVC.m; path = YHJQRCode/Classes/QRCodeScanningVC.m; sourceTree = "<group>"; };
@@ -1080,18 +1080,6 @@
 			name = CoreData;
 			sourceTree = "<group>";
 		};
-		0A1B1A55975B9C725A07BB1826C5D357 /* WechatOpenSDK */ = {
-			isa = PBXGroup;
-			children = (
-				A7A464ADAE72A309D72E6AD244AFEC33 /* WechatAuthSDK.h */,
-				19E01BE0A8E96A8FB192EDEA4E8A8138 /* WXApi.h */,
-				F3265DC4578E0866A67A5A5CB8FFE3E6 /* WXApiObject.h */,
-				ED946EEFC467C12FE13C9F2543DC912C /* Frameworks */,
-			);
-			name = WechatOpenSDK;
-			path = WechatOpenSDK;
-			sourceTree = "<group>";
-		};
 		28A9730D2DE9B0C7706542ED3D7E12BD /* Weibo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1123,6 +1111,14 @@
 				9323F01794DAEE37DCEDD9A10C5B6A0C /* WeiboSDK.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		408F98098CB09529CB10CF5ED9D50624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55B1A5DDBBFD7B77BE3559FC6313528 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		40D4F80ED245B6CBBB7FACC57D7B66AE /* Support Files */ = {
@@ -1160,6 +1156,14 @@
 				E9F29768927673A4259E57FE17C6DFE7 /* BaiduMapAPI_Utils.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		469347FFACA104A1CE3E71F830735C76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07BC227DE9CC6B9604E5A0861196C5B8 /* YHJQRCode.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		470DCF2ACD985C7EDEF7F33C0E44866E /* INTULocationManager */ = {
@@ -1215,7 +1219,7 @@
 				470DCF2ACD985C7EDEF7F33C0E44866E /* INTULocationManager */,
 				A1E5E42D463F289A736522ADF8E0C614 /* OC-Category */,
 				5B3FB3DCCB4FD3E06C0D153F2EFD808A /* Tencent_SDK */,
-				0A1B1A55975B9C725A07BB1826C5D357 /* WechatOpenSDK */,
+				CF9BEC3D29C4DF6359EF498BC27F3649 /* WechatOpenSDK */,
 				28A9730D2DE9B0C7706542ED3D7E12BD /* Weibo */,
 				B76D05BA03B48DAAEB124935FC28BBD8 /* YHJQRCode */,
 			);
@@ -1248,14 +1252,6 @@
 				5DF4B433F3AFE7E3E25AE7C2F056D5AF /* CLLocation+CH1903.m */,
 			);
 			name = CoreLocation;
-			sourceTree = "<group>";
-		};
-		96F2BCE3A3299961953647DE4B64501F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2D15978150572F014F8A785860B23E5A /* YHJQRCode.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		98B2BF40A331DBD5CF6AEDFFDA1532DE /* Foundation */ = {
@@ -1712,7 +1708,7 @@
 			isa = PBXGroup;
 			children = (
 				FB46723582F6783BC60A098905D05AD3 /* Code */,
-				96F2BCE3A3299961953647DE4B64501F /* Resources */,
+				469347FFACA104A1CE3E71F830735C76 /* Resources */,
 				40D4F80ED245B6CBBB7FACC57D7B66AE /* Support Files */,
 			);
 			name = YHJQRCode;
@@ -1750,6 +1746,18 @@
 			path = "Target Support Files/Pods-QRCode";
 			sourceTree = "<group>";
 		};
+		CF9BEC3D29C4DF6359EF498BC27F3649 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				069F950756DD07C9DDFB27AB4A1DE8E1 /* WechatAuthSDK.h */,
+				CA64590E8E94CBC74ECF0A6A641AFE3F /* WXApi.h */,
+				4350FAF31F185BC9AB6D12B0D319CE04 /* WXApiObject.h */,
+				408F98098CB09529CB10CF5ED9D50624 /* Frameworks */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1764,14 +1772,6 @@
 				4F20075AEB91CD7C527C608F3C0D3276 /* TencentOpenApi_IOS_Bundle.bundle */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		ED946EEFC467C12FE13C9F2543DC912C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8A44DA9744DAA7F77F5D04F3B1864958 /* libWeChatSDK.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F1CEE25F6AA9BF490AD8006A0933DBC6 /* Frameworks */ = {

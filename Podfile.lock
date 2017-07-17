@@ -15,11 +15,11 @@ PODS:
   - OC-Category/QuartzCore (0.1.3.8)
   - OC-Category/UIKit (0.1.3.8)
   - Tencent_SDK (3.1.3)
-  - WechatOpenSDK (1.7.7)
+  - WechatOpenSDK (1.7.8)
   - Weibo (2.4.2)
-  - YHJQRCode (0.2.0.7):
-    - YHJQRCode/Code (= 0.2.0.7)
-  - YHJQRCode/Code (0.2.0.7)
+  - YHJQRCode (0.2.0.9):
+    - YHJQRCode/Code (= 0.2.0.9)
+  - YHJQRCode/Code (0.2.0.9)
 
 DEPENDENCIES:
   - BaiduMap-iOS-SDK (~> 3.0)
@@ -28,17 +28,17 @@ DEPENDENCIES:
   - Tencent_SDK (~> 3.1.3)
   - WechatOpenSDK
   - Weibo (~> 2.4.2)
-  - YHJQRCode (~> 0.2.0.7)
+  - YHJQRCode (~> 0.2.0.9)
 
 SPEC CHECKSUMS:
   BaiduMap-iOS-SDK: f620ea8e35c93914b1d806bb11bfbd53839090ae
   INTULocationManager: 73f8254b3d05c897c56bb13c190e5b7c648c0998
   OC-Category: e1f2f10ff52e0be897deac0c06719fa371afa7aa
   Tencent_SDK: 5e7116d42deed9af7b710f3d7995cc81b01a36e9
-  WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
+  WechatOpenSDK: ad1e7be1b66416df847ac50830c798b70c9e365e
   Weibo: ed569ffed6eb043a159ac3b01dc5122b4e1fd77a
-  YHJQRCode: de7b2924724f34aadf5bc19c64f9e0accda2148a
+  YHJQRCode: 273adbf65fe0c803d89308b2949c4420050c50d0
 
-PODFILE CHECKSUM: 1e946ebcbf738c4712bcb84d8d2f2fd3b4d490fb
+PODFILE CHECKSUM: 82ddd367c863571ebf18db499b0e267aac2805f6
 
 COCOAPODS: 1.2.1

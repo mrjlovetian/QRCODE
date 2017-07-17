@@ -83,13 +83,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "BaiduMap-iOS-SDK/BaiduMapAPI/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
   install_resource "Tencent_SDK/TencentOpenApi_IOS_Bundle.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/Weibo/Weibo.bundle"
-  install_resource "YHJQRCode/YHJQRCode/Classes/YHJQRCode.bundle"
+  install_resource "YHJQRCode/YHJQRCode.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "BaiduMap-iOS-SDK/BaiduMapAPI/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
   install_resource "Tencent_SDK/TencentOpenApi_IOS_Bundle.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/Weibo/Weibo.bundle"
-  install_resource "YHJQRCode/YHJQRCode/Classes/YHJQRCode.bundle"
+  install_resource "YHJQRCode/YHJQRCode.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

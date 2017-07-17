@@ -61,25 +61,28 @@
 
 - (void)handleQRCresult:(id)result
 {
-    id resulta = [YHJQRCodeUtil decodeDataWithCodeStr:result EncryptType:_decodType];
-    
     NSDictionary *qrcdic = nil;
     NSError *err = nil;
-    if ([resulta isKindOfClass:[NSDictionary class]]) {
-        qrcdic = resulta;
-    }else if ([resulta isKindOfClass:[NSError class]])
+    id resulta = [YHJQRCodeUtil decodeDataWithCodeStr:result EncryptType:_decodType];
+    if ([result integerValue] == -1) {
+        err = [[NSError alloc] initWithDomain:@"error image core" code:-1 userInfo:nil];
+    }else
     {
-        err = resulta;
+        if ([resulta isKindOfClass:[NSDictionary class]]) {
+            qrcdic = resulta;
+        }else if ([resulta isKindOfClass:[NSError class]])
+        {
+            err = resulta;
+        }
     }
-    if ([self.delegate respondsToSelector:@selector(QRCodeScanningVCResult:error:)]) {
-        [self.delegate QRCodeScanningVCResult:qrcdic error:err];
+    if ([self.delegate respondsToSelector:@selector(QRCodeScanningVCResult:error:qrc:)]) {
+        [self.delegate QRCodeScanningVCResult:qrcdic error:err qrc:self];
     }
     
     if (self.resultBlcok) {
-        self.resultBlcok(qrcdic, err);
+        self.resultBlcok(qrcdic, err, self);
     }
     
-    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)getRuleState:(AuthorizationStateBlock)authorizationHander
